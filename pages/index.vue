@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <HeaderNav />
+    <FooterNav />
   </div>
 </template>
 
