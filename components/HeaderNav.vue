@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <div id="mobile-nav" class="d-flex justify-content-between p-3">
+    <div id="mobile-nav" class="d-flex justify-content-between p-3 px-4">
       <img class="logo" src="../assets/hub-logo.png" alt="" />
       <img @click="openNav" src="../assets/menu.svg" alt="" />
     </div>
