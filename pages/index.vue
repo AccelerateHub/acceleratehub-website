@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <HeaderNav />
+    <Home />
     <FooterNav />
   </div>
 </template>
@@ -11,5 +12,6 @@ export default {}
 <style scoped>
 .home{
   background-color: #070707!important;
+  color: white;
 }
 </style>
