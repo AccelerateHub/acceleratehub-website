@@ -1,0 +1,14 @@
+/* Holds gobal styles and varables */
+:root {
+  --bg-dark: #070707;
+  --bg-color: #fff;
+  --bg-dark-blue: #060611;
+  --bg-yellow: #EDF518;
+  --light-blue: #4BB7F4;
+
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--bg-color);
+}
