@@ -139,6 +139,10 @@
   </div>
 </template>
 <style scoped>
+.row{
+  margin-right: 0px!important;
+  margin-left: 0px!important;
+}
 .heading {
   font-size: 40px;
   font-weight: 900 !important;

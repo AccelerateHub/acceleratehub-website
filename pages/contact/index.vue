@@ -37,6 +37,9 @@
         </div>
       </div>
     </div>
+    <div class="cover my-5">
+    <Socials />
+    </div>
     <FooterNav />
   </div>
 </template>
