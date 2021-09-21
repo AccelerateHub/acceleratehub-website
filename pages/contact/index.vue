@@ -74,7 +74,7 @@ label {
 }
 .first,
 .last {
-  width: 45%;
+  width: 49%;
 }
 @media (max-width: 800px) {
   .first,

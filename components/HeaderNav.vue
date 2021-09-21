@@ -23,16 +23,30 @@
         >&times;</a
       >
       <div class="ml-2">
-      <img src="../assets/hub-logo.png" alt="" />
+        <img src="../assets/hub-logo.png" alt="" />
       </div>
-      <div class="py-3 ml-2">HOME</div>
-      <div class="py-3 ml-2">ABOUT US</div>
-      <div class="py-3 ml-2">PROJECTS</div>
-      <div class="py-3 ml-2">OUR TEAM</div>
-      <div class="py-3 ml-2">WITA</div>
-      <div class="py-3 ml-2">TESTIONIALS</div>
+      <nuxt-link to="/">
+        <div class="py-3 ml-2">HOME</div>
+      </nuxt-link>
+      <nuxt-link to="">
+        <div class="py-3 ml-2">ABOUT US</div>
+      </nuxt-link>
+      <nuxt-link to="">
+        <div class="py-3 ml-2">PROJECTS</div>
+      </nuxt-link>
+      <nuxt-link to="/team">
+        <div class="py-3 ml-2">OUR TEAM</div>
+      </nuxt-link>
+      <nuxt-link to="">
+        <div class="py-3 ml-2">WITA</div>
+      </nuxt-link>
+      <nuxt-link to="/testimonials">
+        <div class="py-3 ml-2">TESTIONIALS</div>
+      </nuxt-link>
       <div class="py-3 ml-2">BLOG</div>
-      <div class="py-3 ml-2">CONTACT US</div>
+      <nuxt-link to="">
+        <div class="py-3 ml-2">CONTACT US</div>
+      </nuxt-link>
     </div>
   </nav>
 </template>
@@ -62,7 +76,6 @@ export default {
   margin-left: auto;
   margin-right: auto;
   color: white;
-  
 }
 div {
   font-weight: 700 !important;
@@ -91,18 +104,19 @@ div {
 }
 
 /* The navigation menu links */
-.sidenav div,a {
+.sidenav div,
+a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #FA6B43;
+  color: #fa6b43;
   display: block;
   transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav div:hover {
-  color: #4BB7F4;
+  color: #4bb7f4;
 }
 
 /* Position and style the close button (top right corner) */
