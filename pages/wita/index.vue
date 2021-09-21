@@ -34,7 +34,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6">
-              <img src="~static/img/bg-face.png" alt="">
+              <img src="~static/img/bg-face-min.png" alt="">
             </div>
             <div class="col-12 col-md-6">
               <h2>WITA LEAD</h2>
@@ -125,7 +125,7 @@ export default {
 .page-title h2 {
   padding: 5px;
   border: 6px solid var(--bg-color);
-  width: 350px;
+  width: 289px;
 }
 .our-story {
   margin-top: 30px;
@@ -167,7 +167,7 @@ export default {
 
 .wita-lead img {
   width: 100%;
-  height: 293px;
+  margin-bottom: 20px;
 }
 
 .wita-lead h2 {
@@ -213,6 +213,9 @@ export default {
   }
 
 @media (min-width: 1000px) {
+  .page-title h2 {
+    width: 350px;
+  }
   .our-story h2 {
     padding: 10px;
   }
@@ -225,6 +228,12 @@ export default {
   }
   .our-story-images img {
     width: 635px;
+  }
+
+  .wita-lead img {
+    width: 100%;
+    height: 293px;
+    margin-bottom: 0px;
   }
 
   /* CORE VALUES */
