@@ -59,7 +59,9 @@
       <nuxt-link to="/testimonials">
         <div class="py-3 ml-2">TESTIONIALS</div>
       </nuxt-link>
-      <div class="py-3 ml-2">BLOG</div>
+      <nuxt-link to="">
+        <div class="py-3 ml-2">BLOG</div>
+      </nuxt-link>
       <nuxt-link to="/contact">
         <div class="py-3 ml-2">CONTACT US</div>
       </nuxt-link>
@@ -86,15 +88,15 @@ export default {
 <style scoped>
 .nav {
   font-family: 'Montserrat', sans-serif;
-  width: 70%;
+  width: 75%;
   display: flex;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
   color: white;
 }
-a{
-  color: white!important;
+a {
+  color: white !important;
   font-weight: 700;
 }
 div {

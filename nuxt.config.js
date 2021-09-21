@@ -23,6 +23,12 @@ export default {
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat&display=swap' },
+
+      // { rel: 'stylesheet', href: '/assets/owl-carousel/owl.carousel.min.css' },
+      // { rel: 'stylesheet', href: '/assets/owl-carousel/owl.theme.default.css' },
+      // { href: '/assets/owl-carousel/owl.carousel.min.js' },
+      // { href: '/assets/owl-carousel/jquery.min.js' },
+
     ]
   },
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="row py-lg-3 py-5">
+    <div class="row py-lg-5 py-5">
       <div
         class="
           col-lg-4 col-md-5 col-sm-5 col-xs-5
@@ -10,10 +10,12 @@
           my-5
         "
       >
-        <div class="heading">
-          learn, create, innovate, <span>collaborate</span>
+        <div class="py-5">
+          <div class="heading">
+            learn, create, innovate, <span>collaborate</span>
+          </div>
+          <div class="title">accelerate innovation hub</div>
         </div>
-        <div class="title">accelerate innovation hub</div>
       </div>
     </div>
     <div>
@@ -26,7 +28,7 @@
       <img class="frame-5" src="../assets/frame-2.png" alt="" />
       <img class="frame-6" src="../assets/frame-3.png" alt="" />
     </div>
-    <div class="row justify-content-between cover">
+    <div class="row justify-content-between cover pt-5">
       <div class="col-lg-6">
         <div class="big p-3 px-lg-5 text-heading">student development</div>
         <div class="about px-lg-5 p-3 py-4 my-4">
@@ -74,11 +76,21 @@
       </div>
     </div>
     <div class="row cover my-4">
-      <div class="col-lg-6">
+      <div class="col-lg-4">
         <div class="big p-3 px-lg-5 text-heading">our gallery</div>
       </div>
+      <div class="col-12">
+        <GallarySlider />
+      </div>
     </div>
-
+    <div class="row cover my-4">
+      <div class="col-lg-4">
+        <div class="big p-3 px-lg-5 text-heading">testimonials</div>
+      </div>
+      <div class="col-12">
+        <TestimonialSlider />
+      </div>
+    </div>
     <div class="row justify-content-between my-5 cover">
       <div class="col-lg-6">
         <div class="big p-3 px-lg-5 text-heading">accelrate & sdg</div>
@@ -139,9 +151,9 @@
   </div>
 </template>
 <style scoped>
-.row{
-  margin-right: 0px!important;
-  margin-left: 0px!important;
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
 }
 .heading {
   font-size: 40px;
@@ -157,37 +169,37 @@
 }
 .frame-1 {
   position: absolute;
-  top: 55%;
+  top: 85%;
   left: 13%;
   width: 60px;
 }
 .frame-2 {
   position: absolute;
-  top: 35%;
+  top: 52%;
   left: 26%;
   width: 60px;
 }
 .frame-3 {
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 13%;
   width: 70px;
 }
 .frame-4 {
   position: absolute;
-  top: 15%;
+  top: 20%;
   right: 13%;
   width: 75px;
 }
 .frame-5 {
   position: absolute;
-  top: 35%;
+  top: 52%;
   right: 26%;
   width: 75px;
 }
 .frame-6 {
   position: absolute;
-  top: 55%;
+  top: 85%;
   right: 13%;
   width: 60px;
 }
@@ -275,15 +287,16 @@
     padding-right: 0% !important;
     margin-right: 0%;
   }
-  .col-lg-6, .col-lg-3 {
+  .col-lg-6,
+  .col-lg-3 {
     padding-right: 0px !important;
     padding-left: 0px !important;
   }
-  .text{
-      font-size: 13px;
+  .text {
+    font-size: 13px;
   }
-  .big{
-      font-size: 15px;
+  .big {
+    font-size: 15px;
   }
 }
 </style>
