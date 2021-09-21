@@ -38,32 +38,32 @@
       <a href="javascript:void(0)" class="closebtn" @click="closeNav"
         >&times;</a
       >
-      <div class="ml-2">
+      <div class="ml-4">
         <img src="../assets/hub-logo.png" alt="" />
       </div>
       <nuxt-link to="/">
-        <div class="py-3 ml-2">HOME</div>
+        <div class="py-3">HOME</div>
       </nuxt-link>
       <nuxt-link to="/about">
-        <div class="py-3 ml-2">ABOUT US</div>
+        <div class="py-3">ABOUT US</div>
       </nuxt-link>
       <nuxt-link to="/projects">
-        <div class="py-3 ml-2">PROJECTS</div>
+        <div class="py-3">PROJECTS</div>
       </nuxt-link>
       <nuxt-link to="/team">
-        <div class="py-3 ml-2">OUR TEAM</div>
+        <div class="py-3">OUR TEAM</div>
       </nuxt-link>
       <nuxt-link to="wita">
-        <div class="py-3 ml-2">WITA</div>
+        <div class="py-3">WITA</div>
       </nuxt-link>
       <nuxt-link to="/testimonials">
-        <div class="py-3 ml-2">TESTIONIALS</div>
+        <div class="py-3">TESTIONIALS</div>
       </nuxt-link>
       <nuxt-link to="">
-        <div class="py-3 ml-2">BLOG</div>
+        <div class="py-3">BLOG</div>
       </nuxt-link>
       <nuxt-link to="/contact">
-        <div class="py-3 ml-2">CONTACT US</div>
+        <div class="py-3">CONTACT US</div>
       </nuxt-link>
     </div>
   </nav>
@@ -97,7 +97,7 @@ export default {
 }
 a {
   color: white !important;
-  font-weight: 700;
+  font-weight: 700!important;
 }
 div {
   font-weight: 700 !important;

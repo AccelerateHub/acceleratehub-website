@@ -1,7 +1,7 @@
 <template>
   <div class="my-4">
     <carousel :autoplay="true" :nav="false" :loop="true" :responsive="{0:{items:1,nav:false},900:{items:2,nav:false},1200:{items:3}}" >
-      <div class="m-3">
+      <div class="m-lg-3">
           <Testimonial />
       </div>
     </carousel>

@@ -11,79 +11,87 @@
         </div>
       </div>
       <div class="row cover mt-5">
-        <div class="team-card m-2">
-          <img class="img" src="../../assets/team.png" alt="" />
-          <div class="content p-3">
-            <div class="name">Alabo kurotams</div>
-            <div>UI/UX Track</div>
-            <div class="my-2">
-              <img
-                class="social"
-                src="../../assets/entypo-social_linkedin-with-circle.png"
-                alt=""
-              />
-              <img
-                class="social"
-                src="../../assets/entypo-social_twitter-with-circle.png"
-                alt=""
-              />
+        <div class="col-lg-4">
+          <div class="team-card m-lg-3">
+            <img class="img" src="../../assets/team.png" alt="" />
+            <div class="content p-3">
+              <div class="name">Alabo kurotams</div>
+              <div>UI/UX Track</div>
+              <div class="my-2">
+                <img
+                  class="social"
+                  src="../../assets/entypo-social_linkedin-with-circle.png"
+                  alt=""
+                />
+                <img
+                  class="social"
+                  src="../../assets/entypo-social_twitter-with-circle.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
-        <div class="team-card m-2">
-          <img class="img" src="../../assets/team.png" alt="" />
-          <div class="content p-3">
-            <div class="name">Alabo kurotams</div>
-            <div>UI/UX Track</div>
-            <div class="my-2">
-              <img
-                class="social"
-                src="../../assets/entypo-social_linkedin-with-circle.png"
-                alt=""
-              />
-              <img
-                class="social"
-                src="../../assets/entypo-social_twitter-with-circle.png"
-                alt=""
-              />
+         <div class="col-lg-4">
+          <div class="team-card m-lg-3">
+            <img class="img" src="../../assets/team.png" alt="" />
+            <div class="content p-3">
+              <div class="name">Alabo kurotams</div>
+              <div>UI/UX Track</div>
+              <div class="my-2">
+                <img
+                  class="social"
+                  src="../../assets/entypo-social_linkedin-with-circle.png"
+                  alt=""
+                />
+                <img
+                  class="social"
+                  src="../../assets/entypo-social_twitter-with-circle.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
-        <div class="team-card m-2">
-          <img class="img" src="../../assets/team.png" alt="" />
-          <div class="content p-3">
-            <div class="name">Alabo kurotams</div>
-            <div>UI/UX Track</div>
-            <div class="my-2">
-              <img
-                class="social"
-                src="../../assets/entypo-social_linkedin-with-circle.png"
-                alt=""
-              />
-              <img
-                class="social"
-                src="../../assets/entypo-social_twitter-with-circle.png"
-                alt=""
-              />
+         <div class="col-lg-4">
+          <div class="team-card m-lg-3">
+            <img class="img" src="../../assets/team.png" alt="" />
+            <div class="content p-3">
+              <div class="name">Alabo kurotams</div>
+              <div>UI/UX Track</div>
+              <div class="my-2">
+                <img
+                  class="social"
+                  src="../../assets/entypo-social_linkedin-with-circle.png"
+                  alt=""
+                />
+                <img
+                  class="social"
+                  src="../../assets/entypo-social_twitter-with-circle.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
-        <div class="team-card m-2">
-          <img class="img" src="../../assets/team.png" alt="" />
-          <div class="content p-3">
-            <div class="name">Alabo kurotams</div>
-            <div>UI/UX Track</div>
-            <div class="my-2">
-              <img
-                class="social"
-                src="../../assets/entypo-social_linkedin-with-circle.png"
-                alt=""
-              />
-              <img
-                class="social"
-                src="../../assets/entypo-social_twitter-with-circle.png"
-                alt=""
-              />
+         <div class="col-lg-4">
+          <div class="team-card m-lg-3">
+            <img class="img" src="../../assets/team.png" alt="" />
+            <div class="content p-3">
+              <div class="name">Alabo kurotams</div>
+              <div>UI/UX Track</div>
+              <div class="my-2">
+                <img
+                  class="social"
+                  src="../../assets/entypo-social_linkedin-with-circle.png"
+                  alt=""
+                />
+                <img
+                  class="social"
+                  src="../../assets/entypo-social_twitter-with-circle.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -132,5 +140,14 @@ input::placeholder {
 }
 .social {
   width: 20px;
+}
+@media (max-width: 800px) {
+  .cover {
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+  input{
+    width: 100%;
+  }
 }
 </style>

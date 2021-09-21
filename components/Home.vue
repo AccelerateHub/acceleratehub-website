@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="row py-lg-5 py-5">
+    <div class="row py-lg-5">
       <div
         class="
           col-lg-4 col-md-5 col-sm-5 col-xs-5
@@ -60,7 +60,21 @@
       </div>
     </div>
     <div class="row cover justify-content-center py-5">
-      <div class="about my-auto overlay-1 col-lg-5 p-3 px-lg-5 py-4 my-4">
+      <div
+        class="
+          col-lg-6
+          about
+          my-lg-auto
+          overlay-1
+          col-lg-5
+          p-3
+          px-lg-5
+          py-4
+          my-4
+          col-lg-m-0
+          m-3
+        "
+      >
         <div class="big pb-2 name">WOMEN IN TECH IN ACCELERATE</div>
         <div class="text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. At consequat
@@ -132,12 +146,12 @@
       </div>
       <div class="col-lg-3">
         <img
-          class="sdg-img mb-3"
+          class="sdg-img mb-lg-3"
           src="../assets/E_SDG goals_icons-individual-rgb-04 1.png"
           alt=""
         />
         <img
-          class="sdg-img mb-3 mt-lg-1"
+          class="sdg-img mb-lg-3 mt-lg-1"
           src="../assets/E_SDG goals_icons-individual-rgb-05 1.png"
           alt=""
         />
@@ -151,13 +165,51 @@
   </div>
 </template>
 <style scoped>
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+@keyframes heartBeat {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.frame-2,
+.frame-5 {
+  animation-name: heartBeat;
+  animation: heartBeat 0.66s alternate;
+  animation-iteration-count: infinite;
+}
+.frame-1,
+.frame-3,
+.frame-4,
+.frame-6 {
+  animation-name: floating;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
 .row {
   margin-right: 0px !important;
   margin-left: 0px !important;
 }
 .heading {
-  font-size: 40px;
-  font-weight: 900 !important;
+  font-size: 50px;
+  font-weight: bolder !important;
   text-transform: uppercase;
 }
 .title {
@@ -256,11 +308,11 @@
 }
 @media (max-width: 800px) {
   .heading {
-    font-size: 20px;
+    font-size: 35px;
   }
   .cover {
-    margin-left: 5% !important;
-    margin-right: 5% !important;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
   }
   .frame-1,
   .frame-2,
@@ -268,7 +320,7 @@
   .frame-4,
   .frame-5,
   .frame-6 {
-    width: 35px;
+    width: 40px;
   }
   .frame-6,
   .frame-1 {
@@ -276,7 +328,7 @@
   }
   .frame-5,
   .frame-2 {
-    top: 48%;
+    top: 60%;
   }
   .img-1 {
     width: 100%;
@@ -287,16 +339,15 @@
     padding-right: 0% !important;
     margin-right: 0%;
   }
-  .col-lg-6,
-  .col-lg-3 {
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-  }
   .text {
     font-size: 13px;
   }
   .big {
     font-size: 15px;
+  }
+  .sdg-img {
+    height: auto !important;
+    width: 32%;
   }
 }
 </style>

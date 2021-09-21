@@ -8,7 +8,7 @@
           <div class="stack">UIUX Track</div>
         </div>
       </div>
-      <div class="py-3">
+      <div class="py-3 text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum lectus
         sagittis condimentum arcu cursus. Duis vestibulum amet volutpat dolor
         quisque nunc tincidunt odio. Nunc nascetur in neque eget magna. Nullam
@@ -28,10 +28,15 @@
   font-size: 15px;
 }
 .user {
-  width: 40px!important;
+  width: 40px !important;
   height: 40px;
 }
 .stack {
   font-size: 13px;
+}
+@media (max-width: 600px) {
+  .text{
+    font-size: 13px;
+  }
 }
 </style>

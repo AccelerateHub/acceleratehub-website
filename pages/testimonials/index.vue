@@ -2,7 +2,7 @@
   <div class="main">
     <HeaderNav />
     <div>
-      <div class="row cover py-5">
+      <div class="row cover py-lg-5">
         <div class="col-lg-3">
           <div class="big p-3 px-lg-5 text-heading">TESTIMONIALS</div>
         </div>
@@ -110,5 +110,11 @@
 }
 .stack {
   font-size: 13px;
+}
+@media (max-width: 600px) {
+  .cover {
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+  }
 }
 </style>

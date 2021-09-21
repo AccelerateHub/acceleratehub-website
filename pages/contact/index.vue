@@ -38,7 +38,7 @@
       </div>
     </div>
     <div class="cover my-5">
-    <Socials />
+      <Socials />
     </div>
     <FooterNav />
   </div>
@@ -81,8 +81,12 @@ label {
   .last {
     width: 100%;
   }
-  .send{
-      width: 100%!important;
+  .send {
+    width: 100% !important;
+  }
+  .cover {
+    margin-left: 3% !important;
+    margin-right: 3% !important;
   }
 }
 </style>
