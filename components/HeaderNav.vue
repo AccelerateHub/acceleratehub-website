@@ -5,17 +5,33 @@
       <img @click="openNav" src="../assets/menu.svg" alt="" />
     </div>
     <div class="nav p-3">
-      <div class="pt-2">HOME</div>
-      <div class="pt-2">ABOUT US</div>
-      <div class="pt-2">PROJECTS</div>
-      <div class="pt-2">OUR TEAM</div>
+      <nuxt-link to="/">
+        <div class="pt-2">HOME</div>
+      </nuxt-link>
+      <nuxt-link to="/about">
+        <div class="pt-2">ABOUT US</div>
+      </nuxt-link>
+      <nuxt-link to="/projects">
+        <div class="pt-2">PROJECTS</div>
+      </nuxt-link>
+      <nuxt-link to="/team">
+        <div class="pt-2">OUR TEAM</div>
+      </nuxt-link>
       <div>
         <img src="../assets/hub-logo.png" alt="" />
       </div>
-      <div class="pt-2">WITA</div>
-      <div class="pt-2">TESTIONIALS</div>
-      <div class="pt-2">BLOG</div>
-      <div class="pt-2">CONTACT US</div>
+      <nuxt-link to="/wita">
+        <div class="pt-2">WITA</div>
+      </nuxt-link>
+      <nuxt-link to="/testimonials">
+        <div class="pt-2">TESTIONIALS</div>
+      </nuxt-link>
+      <nuxt-link to="">
+        <div class="pt-2">BLOG</div>
+      </nuxt-link>
+      <nuxt-link to="/contact">
+        <div class="pt-2">CONTACT US</div>
+      </nuxt-link>
     </div>
 
     <div id="mySidenav" class="sidenav">
@@ -28,23 +44,23 @@
       <nuxt-link to="/">
         <div class="py-3 ml-2">HOME</div>
       </nuxt-link>
-      <nuxt-link to="">
+      <nuxt-link to="/about">
         <div class="py-3 ml-2">ABOUT US</div>
       </nuxt-link>
-      <nuxt-link to="">
+      <nuxt-link to="/projects">
         <div class="py-3 ml-2">PROJECTS</div>
       </nuxt-link>
       <nuxt-link to="/team">
         <div class="py-3 ml-2">OUR TEAM</div>
       </nuxt-link>
-      <nuxt-link to="">
+      <nuxt-link to="wita">
         <div class="py-3 ml-2">WITA</div>
       </nuxt-link>
       <nuxt-link to="/testimonials">
         <div class="py-3 ml-2">TESTIONIALS</div>
       </nuxt-link>
       <div class="py-3 ml-2">BLOG</div>
-      <nuxt-link to="">
+      <nuxt-link to="/contact">
         <div class="py-3 ml-2">CONTACT US</div>
       </nuxt-link>
     </div>
@@ -70,12 +86,16 @@ export default {
 <style scoped>
 .nav {
   font-family: 'Montserrat', sans-serif;
-  width: 65%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
   color: white;
+}
+a{
+  color: white!important;
+  font-weight: 700;
 }
 div {
   font-weight: 700 !important;
