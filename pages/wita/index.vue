@@ -1,9 +1,8 @@
 <template>
   <div>
     <HeaderNav />
-
     <main class="px-lg-0 px-2">
-      <section class="page-title">
+      <section class="page-title pt-5">
         <div class="container">
           <h2 class="px-4 p-2">WOMEN IN TECH IN ACCLERATE</h2>
         </div>
@@ -191,7 +190,7 @@ h4 {
 }
 .page-title h2 {
   padding: 5px;
-  border: 6px solid var(--bg-color);
+  border: 3px solid var(--bg-color);
   width: 289px;
 }
 .our-story {
@@ -201,7 +200,7 @@ h4 {
 
 .our-story h2 {
   padding: 5px;
-  border: 6px solid var(--bg-color);
+  border: 3px solid var(--bg-color);
   text-align: center;
   margin-bottom: 20px;
 }
@@ -209,7 +208,7 @@ h4 {
 .intro {
   background-color: var(--bg-dark-blue);
   padding: 20px;
-  border: 6px solid var(--light-blue);
+  border: 3px solid var(--light-blue);
   margin-bottom: 20px;
 }
 
@@ -238,14 +237,14 @@ h4 {
 }
 
 .wita-lead h2 {
-  border: 6px solid #fff;
+  border: 3px solid #fff;
   text-align: center;
 }
 
 .wita-text {
   background-color: var(--bg-dark-blue);
   padding: 20px;
-  border: 6px solid var(--light-blue);
+  border: 3px solid var(--light-blue);
   background-color: var(--bg-dark-blue);
 }
 
@@ -259,7 +258,7 @@ h4 {
   width: 300px;
   text-align: center;
   padding: 5px;
-  border: 6px solid var(--bg-color);
+  border: 3px solid var(--bg-color);
 }
 .core-item {
   padding: 30px;
@@ -294,7 +293,7 @@ h4 {
   .intro {
     position: relative;
     padding: 40px;
-    border: 6px solid var(--light-blue);
+    border: 3px solid var(--light-blue);
     z-index: 1000;
     width: 597px;
   }

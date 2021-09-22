@@ -264,10 +264,10 @@
   margin-right: 12% !important;
 }
 .text-heading {
-  border: 5px solid white;
+  border: 3px solid white;
 }
 .blue {
-  border: 5px solid #4bb7f4;
+  border: 3px solid #4bb7f4;
 }
 .about {
   background-color: #060611;
@@ -324,11 +324,11 @@
   }
   .frame-6,
   .frame-1 {
-    top: 48%;
+    top: 62%;
   }
   .frame-5,
   .frame-2 {
-    top: 60%;
+    top: 55%;
   }
   .img-1 {
     width: 100%;

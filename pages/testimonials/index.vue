@@ -89,7 +89,7 @@
 .big {
   text-transform: uppercase;
   font-weight: 600;
-  border: 5px solid white;
+  border: 3px solid white;
 }
 .cover {
   margin-left: 12% !important;

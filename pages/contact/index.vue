@@ -60,7 +60,7 @@
   margin-right: 12% !important;
 }
 .text-heading {
-  border: 5px solid white;
+  border: 3px solid white;
 }
 input,
 textarea {
