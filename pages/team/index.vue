@@ -11,68 +11,15 @@
         </div>
       </div>
       <div class="row cover mt-5">
-        <div class="team-card m-2">
-          <img class="img" src="../../assets/team.png" alt="" />
+        <div
+          v-for="team in teams"
+          :key="team.name"
+          class="team-card m-2"
+        >
+          <img class="img" :src="`/img/team/${team.image}`" alt="" />
           <div class="content p-3">
-            <div class="name">Alabo kurotams</div>
-            <div>UI/UX Track</div>
-            <div class="my-2">
-              <img
-                class="social"
-                src="../../assets/entypo-social_linkedin-with-circle.png"
-                alt=""
-              />
-              <img
-                class="social"
-                src="../../assets/entypo-social_twitter-with-circle.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-        <div class="team-card m-2">
-          <img class="img" src="../../assets/team.png" alt="" />
-          <div class="content p-3">
-            <div class="name">Alabo kurotams</div>
-            <div>UI/UX Track</div>
-            <div class="my-2">
-              <img
-                class="social"
-                src="../../assets/entypo-social_linkedin-with-circle.png"
-                alt=""
-              />
-              <img
-                class="social"
-                src="../../assets/entypo-social_twitter-with-circle.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-        <div class="team-card m-2">
-          <img class="img" src="../../assets/team.png" alt="" />
-          <div class="content p-3">
-            <div class="name">Alabo kurotams</div>
-            <div>UI/UX Track</div>
-            <div class="my-2">
-              <img
-                class="social"
-                src="../../assets/entypo-social_linkedin-with-circle.png"
-                alt=""
-              />
-              <img
-                class="social"
-                src="../../assets/entypo-social_twitter-with-circle.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-        <div class="team-card m-2">
-          <img class="img" src="../../assets/team.png" alt="" />
-          <div class="content p-3">
-            <div class="name">Alabo kurotams</div>
-            <div>UI/UX Track</div>
+            <div class="name">{{ team.name }}</div>
+            <div>{{ team.title }}</div>
             <div class="my-2">
               <img
                 class="social"
@@ -92,6 +39,19 @@
     <FooterNav />
   </div>
 </template>
+
+<script>
+import teams from '~/static/data/team.js';
+export default {
+  name: 'Teams',
+  data () {
+    return {
+      teams
+    }
+  }
+}
+</script>
+
 <style scoped>
 .main {
   background-color: #070707 !important;
