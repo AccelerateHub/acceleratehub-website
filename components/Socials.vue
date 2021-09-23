@@ -1,10 +1,10 @@
 <template>
   <div class="row justify-content-between mx-lg-1">
-    <div class="col-lg-3 text-center">
+    <div class="col-lg-3 mx-3 mx-lg-0 text-center">
       <div class="big p-3 px-lg-5 text-heading">socials</div>
     </div>
     <div class="col-lg-3">
-      <div class="d-flex">
+      <div class="d-flex m-3 m-lg-0 ">
         <div class="social p-2 text-center mx-1">
           <img src="../assets/linkedin-with-circle.png" alt="" />
         </div>
@@ -25,7 +25,7 @@
 .big {
   text-transform: uppercase;
   font-weight: 600;
-  border: 5px solid white;
+  border: 3px solid white;
 }
 .social {
   background-color: #4bb7f4;

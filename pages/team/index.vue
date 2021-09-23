@@ -66,7 +66,7 @@ export default {
   margin-right: 12% !important;
 }
 .text-heading {
-  border: 5px solid white;
+  border: 3px solid white;
 }
 input {
   background: transparent;
@@ -92,5 +92,14 @@ input::placeholder {
 }
 .social {
   width: 20px;
+}
+@media (max-width: 800px) {
+  .cover {
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+  input{
+    width: 100%;
+  }
 }
 </style>

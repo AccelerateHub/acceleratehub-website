@@ -1,19 +1,14 @@
 <template>
   <div>
-    <HeaderNav />
-
-    <main class="p-lg-0 p-2">
+    <main>
+      <HeaderNav />
       <section class="our-story">
         <div class="container">
           <div class="row">
-            <div class="col-lg-4 my-4">
-              <div class="big p-3 px-lg-5 text-heading">project spark</div>
-            </div>
-          </div>
-          <div class="row">
             <div class="col-12 col-md-5">
+              <div class="big mb-4 p-3 px-lg-5 text-heading">our story</div>
               <div class="intro">
-                <h4>SPARK</h4>
+                <h6>ACCELERATE INNOVATION HUB</h6>
                 <p>
                   In February 2004, in a dorm room at Harvard University Mark
                   Zuckerberg, launched a website that is currently worth over
@@ -33,32 +28,34 @@
                   synergize with other tech startups and other experts outside
                   their reach to motivate, inspired, and tutor them.
                 </p>
-                <h5>READ MORE</h5>
+                <h5>GODWIN JIMMY</h5>
+                <p>Founder, Accelerate Innovation Hub</p>
               </div>
             </div>
             <div class="col-12 col-md-5">
               <div class="our-story-images">
                 <img src="~static/img/bg-face.png" alt="" />
+                <img src="~static/img/bg-face-min.png" alt="" />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="diig">
+      <section class="about-us">
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6">
               <div class="heading-mobile">
-                <h2>DIIG</h2>
+                <h2>ABOUT US</h2>
               </div>
               <img src="~static/img/bg-face-min.png" alt="" />
             </div>
             <div class="col-12 col-md-6">
               <div class="heading">
-                <h2>DIIG</h2>
+                <div class="big p-3 my-lg-5 px-lg-5 text-heading">about us</div>
               </div>
-              <div class="diig-content">
+              <div class="about-content">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
                   sit pellentesque cursus faucibus commodo purus in vel. Augue
@@ -66,39 +63,32 @@
                   habitasse ipsum adipiscing urna. Lorem mauris amet in
                   pellentesque.
                 </p>
-                <h5>READ MORE</h5>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="other-diig">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <h2>DIIG</h2>
-              <div class="diig-content">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  sit pellentesque cursus faucibus commodo purus in vel. Augue
-                  cras at tempus, eu. Amet, nec maecenas leo ornare lectus
-                  habitasse ipsum adipiscing urna. Lorem mauris amet in
-                  pellentesque.
-                </p>
-                <h5>READ MORE</h5>
-              </div>
-            </div>
-            <div class="col-12 col-md-6">
-              <img src="~static/img/bg-face-rectangle.png" alt="" />
-            </div>
+      <section class="partners container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="big p-3 px-lg-5 text-heading">our partners</div>
           </div>
+        </div>
+        <div class="m-3 m-lg-0">
+          <GallarySlider />
         </div>
       </section>
 
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="big p-3 px-lg-5 text-heading">core values</div>
+          </div>
+        </div>
+      </div>
       <section class="core-values">
         <div class="container">
-          <h2>CORE VALUES</h2>
           <div class="row">
             <div class="col-12 col-md-6">
               <div class="core-item orange">
@@ -114,102 +104,62 @@
               </div>
             </div>
             <div class="col-12 col-md-6">
-              <img src="~static/img/bg-face-rectangle.png" alt="" />
+              <div class="core-item blue">
+                <div class="content">
+                  <h4>TECH Solutions</h4>
+                  <p>
+                    We also center our energy on the developing tech solutions
+                    that would solve problems in our community and nation at
+                    large and imprve the cost of living. Focusing majorly on UN
+                    SDGs.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="core-item white">
+                <div class="content">
+                  <h4>
+                    Virtual Reality / Augmented Reality (VR/AR) Development
+                  </h4>
+                  <p>
+                    Pushing the barriers of technology with VR/AR, starting with
+                    its development, we aim to bring digital solutions to
+                    Varsities, solving technical problems and tech innovations
+                    through learning.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="core-item yellow">
+                <div class="content">
+                  <h4>Agriculture Technology</h4>
+                  <p>
+                    As our economy continues to expand the need for an expansion
+                    in the agricultural sector is on the increase this is why as
+                    a technologically based community we seek ways that
+                    technology can be integrated into agriculture to foster the
+                    growth and expansion of the agricultural sector.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-
-      <section class="diig">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <div class="heading-mobile">
-                <h2>DIIG</h2>
-              </div>
-              <img src="~static/img/bg-face-min.png" alt="" />
-            </div>
-            <div class="col-12 col-md-6">
-              <div class="heading">
-                <h2>DIIG</h2>
-              </div>
-              <div class="diig-content">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  sit pellentesque cursus faucibus commodo purus in vel. Augue
-                  cras at tempus, eu. Amet, nec maecenas leo ornare lectus
-                  habitasse ipsum adipiscing urna. Lorem mauris amet in
-                  pellentesque.
-                </p>
-                <h5>READ MORE</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="other-diig">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <h2>DIIG</h2>
-              <div class="diig-content">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  sit pellentesque cursus faucibus commodo purus in vel. Augue
-                  cras at tempus, eu. Amet, nec maecenas leo ornare lectus
-                  habitasse ipsum adipiscing urna. Lorem mauris amet in
-                  pellentesque.
-                </p>
-                <h5>READ MORE</h5>
-              </div>
-            </div>
-            <div class="col-12 col-md-6">
-              <img src="~static/img/bg-face-rectangle.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="other-diig">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <h2>DIIG</h2>
-              <div class="diig-content">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  sit pellentesque cursus faucibus commodo purus in vel. Augue
-                  cras at tempus, eu. Amet, nec maecenas leo ornare lectus
-                  habitasse ipsum adipiscing urna. Lorem mauris amet in
-                  pellentesque.
-                </p>
-                <h5>READ MORE</h5>
-              </div>
-            </div>
-            <div class="col-12 col-md-6">
-              <img src="~static/img/bg-face-rectangle.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
+      <FooterNav />
     </main>
-    <FooterNav />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Projects',
+  name: 'About',
 }
 </script>
 
 <style scoped>
-.big {
-  text-transform: uppercase;
-  font-weight: 600;
-  border: 3px solid white;
-}
 .our-story {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -220,22 +170,27 @@ export default {
   text-align: center;
   margin-bottom: 20px;
 }
-
+h6 {
+  font-weight: 800;
+}
 .intro {
   background-color: var(--bg-dark-blue);
   padding: 20px;
   border: 3px solid var(--light-blue);
   margin-bottom: 20px;
+  width: 550px !important;
 }
-h2 {
-  font-size: 20px;
-  font-weight: 700;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-h5 {
-  font-size: 15px;
+
+.big {
+  text-transform: uppercase;
   font-weight: 600;
+}
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.text-heading {
+  border: 3px solid white;
 }
 .intro h5 {
   color: var(--bg-yellow);
@@ -249,27 +204,27 @@ h5 {
   margin-top: 40px;
 }
 
-/* DIIG */
+/* About styles */
 
-.diig {
+.about-us {
   margin-top: 45px;
   margin-bottom: 30px;
 }
 .heading {
   display: none;
 }
-.diig img {
+.about-us img {
   width: 100%;
 }
 
-.diig h2 {
+.about-us h2 {
   text-align: center;
   padding: 5px;
   border: 3px solid var(--bg-color);
   margin-bottom: 20px;
 }
 
-.diig-content {
+.about-content {
   margin-top: 10px;
   background-color: var(--bg-dark-blue);
   padding: 20px;
@@ -277,22 +232,19 @@ h5 {
   margin-bottom: 20px;
 }
 
-.diig-content h5 {
-  color: var(--bg-yellow);
+/* Partners */
+.partners {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-/* Other diigs */
-.other-diig {
-  margin-bottom: 80px;
-}
-.other-diig h2 {
-  border: 3px solid #fff;
+.partners h2 {
+  padding: 5px;
+  border: 3px solid var(--bg-color);
+  width: 300px;
   text-align: center;
-  padding: 10px;
-}
-.other-diig h5 {
-  color: var(--bg-yellow);
 }
 
+/* CORE VALUES */
 .core-values {
   margin-bottom: 80px;
 }
@@ -307,6 +259,11 @@ h5 {
   border: 2px solid #fff;
   margin-top: 20px;
 }
+.core-values h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+}
 
 .yellow {
   border: 3px solid #edf518;
@@ -314,9 +271,18 @@ h5 {
 .orange {
   border: 3px solid #fa6b43;
 }
+.blue {
+  border: 3px solid #4bb7f4;
+}
+.white {
+  border: 3px solid #fff;
+}
 @media (max-width: 800px) {
-  img {
-    width: 100%;
+  .intro {
+    width: 100% !important;
+  }
+  p {
+    font-size: 13px;
   }
 }
 @media (min-width: 1000px) {
@@ -334,7 +300,8 @@ h5 {
     width: 635px;
   }
 
-  .diig img {
+  /* About styles */
+  .about-us img {
     width: 635px;
   }
   .heading {
@@ -344,10 +311,10 @@ h5 {
   .heading-mobile {
     display: none;
   }
-  .diig h2 {
+  .about-us h2 {
     width: 300px;
   }
-  .diig-content {
+  .about-content {
     margin-top: 0px;
     border: 3px solid var(--light-blue);
     padding: 30px;
@@ -357,7 +324,7 @@ h5 {
   .core-item {
     display: flex;
     align-items: center;
-    height: 300px;
+    height: 250px;
   }
 }
 </style>

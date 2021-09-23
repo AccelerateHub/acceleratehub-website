@@ -5,34 +5,66 @@
       <img @click="openNav" src="../assets/menu.svg" alt="" />
     </div>
     <div class="nav p-3">
-      <div class="pt-2">HOME</div>
-      <div class="pt-2">ABOUT US</div>
-      <div class="pt-2">PROJECTS</div>
-      <div class="pt-2">OUR TEAM</div>
+      <nuxt-link to="/">
+        <div class="pt-2">HOME</div>
+      </nuxt-link>
+      <nuxt-link to="/about">
+        <div class="pt-2">ABOUT US</div>
+      </nuxt-link>
+      <nuxt-link to="/projects">
+        <div class="pt-2">PROJECTS</div>
+      </nuxt-link>
+      <nuxt-link to="/team">
+        <div class="pt-2">OUR TEAM</div>
+      </nuxt-link>
       <div>
         <img src="../assets/hub-logo.png" alt="" />
       </div>
-      <div class="pt-2">WITA</div>
-      <div class="pt-2">TESTIONIALS</div>
-      <div class="pt-2">BLOG</div>
-      <div class="pt-2">CONTACT US</div>
+      <nuxt-link to="/wita">
+        <div class="pt-2">WITA</div>
+      </nuxt-link>
+      <nuxt-link to="/testimonials">
+        <div class="pt-2">TESTIONIALS</div>
+      </nuxt-link>
+      <nuxt-link to="">
+        <div class="pt-2">BLOG</div>
+      </nuxt-link>
+      <nuxt-link to="/contact">
+        <div class="pt-2">CONTACT US</div>
+      </nuxt-link>
     </div>
 
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" @click="closeNav"
         >&times;</a
       >
-      <div class="ml-2">
-      <img src="../assets/hub-logo.png" alt="" />
+      <div class="ml-4">
+        <img src="../assets/hub-logo.png" alt="" />
       </div>
-      <div class="py-3 ml-2">HOME</div>
-      <div class="py-3 ml-2">ABOUT US</div>
-      <div class="py-3 ml-2">PROJECTS</div>
-      <div class="py-3 ml-2">OUR TEAM</div>
-      <div class="py-3 ml-2">WITA</div>
-      <div class="py-3 ml-2">TESTIONIALS</div>
-      <div class="py-3 ml-2">BLOG</div>
-      <div class="py-3 ml-2">CONTACT US</div>
+      <nuxt-link to="/">
+        <div class="py-3">HOME</div>
+      </nuxt-link>
+      <nuxt-link to="/about">
+        <div class="py-3">ABOUT US</div>
+      </nuxt-link>
+      <nuxt-link to="/projects">
+        <div class="py-3">PROJECTS</div>
+      </nuxt-link>
+      <nuxt-link to="/team">
+        <div class="py-3">OUR TEAM</div>
+      </nuxt-link>
+      <nuxt-link to="wita">
+        <div class="py-3">WITA</div>
+      </nuxt-link>
+      <nuxt-link to="/testimonials">
+        <div class="py-3">TESTIONIALS</div>
+      </nuxt-link>
+      <nuxt-link to="">
+        <div class="py-3">BLOG</div>
+      </nuxt-link>
+      <nuxt-link to="/contact">
+        <div class="py-3">CONTACT US</div>
+      </nuxt-link>
     </div>
   </nav>
 </template>
@@ -56,13 +88,16 @@ export default {
 <style scoped>
 .nav {
   font-family: 'Montserrat', sans-serif;
-  width: 65%;
+  width: 75%;
   display: flex;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
   color: white;
-  
+}
+a {
+  color: white !important;
+  font-weight: 700!important;
 }
 div {
   font-weight: 700 !important;
@@ -91,18 +126,19 @@ div {
 }
 
 /* The navigation menu links */
-.sidenav div,a {
+.sidenav div,
+a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #FA6B43;
+  color: #fa6b43;
   display: block;
   transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav div:hover {
-  color: #4BB7F4;
+  color: #4bb7f4;
 }
 
 /* Position and style the close button (top right corner) */

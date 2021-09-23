@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="row py-lg-3 py-5">
+    <div class="row py-lg-5">
       <div
         class="
           col-lg-4 col-md-5 col-sm-5 col-xs-5
@@ -10,10 +10,12 @@
           my-5
         "
       >
-        <div class="heading">
-          learn, create, innovate, <span>collaborate</span>
+        <div class="py-5">
+          <div class="heading">
+            learn, create, innovate, <span>collaborate</span>
+          </div>
+          <div class="title">accelerate innovation hub</div>
         </div>
-        <div class="title">accelerate innovation hub</div>
       </div>
     </div>
     <div>
@@ -26,7 +28,7 @@
       <img class="frame-5" src="../assets/frame-2.png" alt="" />
       <img class="frame-6" src="../assets/frame-3.png" alt="" />
     </div>
-    <div class="row justify-content-between cover">
+    <div class="row justify-content-between cover pt-5">
       <div class="col-lg-6">
         <div class="big p-3 px-lg-5 text-heading">student development</div>
         <div class="about px-lg-5 p-3 py-4 my-4">
@@ -58,7 +60,21 @@
       </div>
     </div>
     <div class="row cover justify-content-center py-5">
-      <div class="about my-auto overlay-1 col-lg-5 p-3 px-lg-5 py-4 my-4">
+      <div
+        class="
+          col-lg-6
+          about
+          my-lg-auto
+          overlay-1
+          col-lg-5
+          p-3
+          px-lg-5
+          py-4
+          my-4
+          col-lg-m-0
+          m-3
+        "
+      >
         <div class="big pb-2 name">WOMEN IN TECH IN ACCELERATE</div>
         <div class="text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. At consequat
@@ -74,11 +90,21 @@
       </div>
     </div>
     <div class="row cover my-4">
-      <div class="col-lg-6">
+      <div class="col-lg-4">
         <div class="big p-3 px-lg-5 text-heading">our gallery</div>
       </div>
+      <div class="col-12">
+        <GallarySlider />
+      </div>
     </div>
-
+    <div class="row cover my-4">
+      <div class="col-lg-4">
+        <div class="big p-3 px-lg-5 text-heading">testimonials</div>
+      </div>
+      <div class="col-12">
+        <TestimonialSlider />
+      </div>
+    </div>
     <div class="row justify-content-between my-5 cover">
       <div class="col-lg-6">
         <div class="big p-3 px-lg-5 text-heading">accelrate & sdg</div>
@@ -120,12 +146,12 @@
       </div>
       <div class="col-lg-3">
         <img
-          class="sdg-img mb-3"
+          class="sdg-img mb-lg-3"
           src="../assets/E_SDG goals_icons-individual-rgb-04 1.png"
           alt=""
         />
         <img
-          class="sdg-img mb-3 mt-lg-1"
+          class="sdg-img mb-lg-3 mt-lg-1"
           src="../assets/E_SDG goals_icons-individual-rgb-05 1.png"
           alt=""
         />
@@ -139,13 +165,51 @@
   </div>
 </template>
 <style scoped>
-.row{
-  margin-right: 0px!important;
-  margin-left: 0px!important;
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+@keyframes heartBeat {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.frame-2,
+.frame-5 {
+  animation-name: heartBeat;
+  animation: heartBeat 0.66s alternate;
+  animation-iteration-count: infinite;
+}
+.frame-1,
+.frame-3,
+.frame-4,
+.frame-6 {
+  animation-name: floating;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
 }
 .heading {
-  font-size: 40px;
-  font-weight: 900 !important;
+  font-size: 50px;
+  font-weight: bolder !important;
   text-transform: uppercase;
 }
 .title {
@@ -157,37 +221,37 @@
 }
 .frame-1 {
   position: absolute;
-  top: 55%;
+  top: 85%;
   left: 13%;
   width: 60px;
 }
 .frame-2 {
   position: absolute;
-  top: 35%;
+  top: 52%;
   left: 26%;
   width: 60px;
 }
 .frame-3 {
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 13%;
   width: 70px;
 }
 .frame-4 {
   position: absolute;
-  top: 15%;
+  top: 20%;
   right: 13%;
   width: 75px;
 }
 .frame-5 {
   position: absolute;
-  top: 35%;
+  top: 52%;
   right: 26%;
   width: 75px;
 }
 .frame-6 {
   position: absolute;
-  top: 55%;
+  top: 85%;
   right: 13%;
   width: 60px;
 }
@@ -200,10 +264,10 @@
   margin-right: 12% !important;
 }
 .text-heading {
-  border: 5px solid white;
+  border: 3px solid white;
 }
 .blue {
-  border: 5px solid #4bb7f4;
+  border: 3px solid #4bb7f4;
 }
 .about {
   background-color: #060611;
@@ -244,11 +308,11 @@
 }
 @media (max-width: 800px) {
   .heading {
-    font-size: 20px;
+    font-size: 35px;
   }
   .cover {
-    margin-left: 5% !important;
-    margin-right: 5% !important;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
   }
   .frame-1,
   .frame-2,
@@ -256,15 +320,15 @@
   .frame-4,
   .frame-5,
   .frame-6 {
-    width: 35px;
+    width: 40px;
   }
   .frame-6,
   .frame-1 {
-    top: 48%;
+    top: 62%;
   }
   .frame-5,
   .frame-2 {
-    top: 48%;
+    top: 55%;
   }
   .img-1 {
     width: 100%;
@@ -275,15 +339,15 @@
     padding-right: 0% !important;
     margin-right: 0%;
   }
-  .col-lg-6, .col-lg-3 {
-    padding-right: 0px !important;
-    padding-left: 0px !important;
+  .text {
+    font-size: 13px;
   }
-  .text{
-      font-size: 13px;
+  .big {
+    font-size: 15px;
   }
-  .big{
-      font-size: 15px;
+  .sdg-img {
+    height: auto !important;
+    width: 32%;
   }
 }
 </style>
