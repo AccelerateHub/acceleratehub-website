@@ -7,25 +7,31 @@
           <div class="big p-3 px-lg-5 text-heading">our team</div>
         </div>
         <div class="col-lg-3 pt-3 text-whire">
-          <input class="p-1 px-3" type="text" placeholder="SEARCH TEAM" />
+          <input
+          v-model="searchInput"
+            class="p-1 px-3"
+            type="text"
+            placeholder="SEARCH TEAM"
+            @input="searchTeam"
+          />
         </div>
       </div>
       <div class="row justify-content-between cover mt-5">
-        <div v-for="team in teams" :key="team.name" class="team-card m-2">
+        <div v-for="member in members" :key="member.name" class="team-card m-2">
           <div
             class="team-thumbnail"
             :style="{
-              backgroundImage: 'url(' + `/img/team/${team.image}` + ')',
+              backgroundImage: 'url(' + `/img/team/${member.image}` + ')',
             }"
           />
           <!-- <img class="img" :src="`/img/team/${team.image}`" alt="" /> -->
           <div class="content p-3">
-            <div class="name">{{ team.name }}</div>
-            <div>{{ team.title }}</div>
+            <div class="name">{{ member.name }}</div>
+            <div>{{ member.title }}</div>
             <div class="my-2">
               <a
-                v-if="team.linkedin"
-                :href="team.linkedin"
+                v-if="member.linkedin"
+                :href="member.linkedin"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -36,8 +42,8 @@
                 />
               </a>
               <a
-                v-if="team.twitter"
-                :href="team.twitter"
+                v-if="member.twitter"
+                :href="member.twitter"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -63,8 +69,23 @@ export default {
   data() {
     return {
       teams,
+      members: [],
+      searchInput: ''
     }
   },
+  mounted () {
+    this.members = this.teams
+  },
+  methods: {
+    searchTeam () {
+      this.members = this.teams.filter(team => team.name.toLowerCase().includes(this.searchInput.toLowerCase()))
+      if (!this.members.length) {
+        this.members = this.teams
+        return this.members
+      }
+      return this.members
+    }
+  }
 }
 </script>
 
