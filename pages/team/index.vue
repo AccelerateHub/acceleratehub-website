@@ -16,21 +16,33 @@
           :key="team.name"
           class="team-card m-2"
         >
-          <img class="img" :src="`/img/team/${team.image}`" alt="" />
+          <div class="team-thumbnail" :style="{backgroundImage:'url(' + `/img/team/${team.image}` + ')'}" />
+          <!-- <img class="img" :src="`/img/team/${team.image}`" alt="" /> -->
           <div class="content p-3">
             <div class="name">{{ team.name }}</div>
             <div>{{ team.title }}</div>
             <div class="my-2">
-              <img
+              <a
+                v-if="team.twitter"
+                :href="team.twitter" target="_blank" rel="noopener noreferrer"
+              >
+                <img
                 class="social"
                 src="../../assets/entypo-social_linkedin-with-circle.png"
                 alt=""
               />
-              <img
+              </a>
+              <a
+                v-if="team.linkedin"
+                :href="team.linkedin" target="_blank" rel="noopener noreferrer"
+              >
+                <img
                 class="social"
                 src="../../assets/entypo-social_twitter-with-circle.png"
                 alt=""
               />
+              </a>
+              
             </div>
           </div>
         </div>
@@ -53,6 +65,13 @@ export default {
 </script>
 
 <style scoped>
+.team-thumbnail {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  height: 40vh;
+}
 .main {
   background-color: #070707 !important;
   color: white;
@@ -78,6 +97,7 @@ input::placeholder {
 }
 .team-card {
   background-color: #060611;
+  width: 300px;
 }
 .name {
   color: #edf518;
