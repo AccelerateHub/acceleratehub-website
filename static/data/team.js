@@ -24,7 +24,7 @@ export default [
   {
     image: 'alabo-excel.jpg',
     name: 'Alabo Excel Kurotams',
-    title: 'Frontend developer and technical writer',
+    title: 'Frontend developer',
     twitter: 'https://twitter.com/alaboExcel',
     linkedin: 'https://www.linkedin.com/in/alabo-excel/'
   },

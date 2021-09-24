@@ -10,39 +10,43 @@
           <input class="p-1 px-3" type="text" placeholder="SEARCH TEAM" />
         </div>
       </div>
-      <div class="row cover mt-5">
-        <div
-          v-for="team in teams"
-          :key="team.name"
-          class="team-card m-2"
-        >
-          <div class="team-thumbnail" :style="{backgroundImage:'url(' + `/img/team/${team.image}` + ')'}" />
+      <div class="row justify-content-between cover mt-5">
+        <div v-for="team in teams" :key="team.name" class="team-card m-2">
+          <div
+            class="team-thumbnail"
+            :style="{
+              backgroundImage: 'url(' + `/img/team/${team.image}` + ')',
+            }"
+          />
           <!-- <img class="img" :src="`/img/team/${team.image}`" alt="" /> -->
           <div class="content p-3">
             <div class="name">{{ team.name }}</div>
             <div>{{ team.title }}</div>
             <div class="my-2">
               <a
-                v-if="team.twitter"
-                :href="team.twitter" target="_blank" rel="noopener noreferrer"
+                v-if="team.linkedin"
+                :href="team.linkedin"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
-                class="social"
-                src="../../assets/entypo-social_linkedin-with-circle.png"
-                alt=""
-              />
+                  class="social"
+                  src="../../assets/entypo-social_linkedin-with-circle.png"
+                  alt=""
+                />
               </a>
               <a
-                v-if="team.linkedin"
-                :href="team.linkedin" target="_blank" rel="noopener noreferrer"
+                v-if="team.twitter"
+                :href="team.twitter"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
-                class="social"
-                src="../../assets/entypo-social_twitter-with-circle.png"
-                alt=""
-              />
+                  class="social"
+                  src="../../assets/entypo-social_twitter-with-circle.png"
+                  alt=""
+                />
               </a>
-              
             </div>
           </div>
         </div>
@@ -53,14 +57,14 @@
 </template>
 
 <script>
-import teams from '~/static/data/team.js';
+import teams from '~/static/data/team.js'
 export default {
   name: 'Teams',
-  data () {
+  data() {
     return {
-      teams
+      teams,
     }
-  }
+  },
 }
 </script>
 
@@ -115,10 +119,13 @@ input::placeholder {
 }
 @media (max-width: 800px) {
   .cover {
-    margin-left: 0% !important;
-    margin-right: 0% !important;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
   }
-  input{
+  input {
+    width: 100%;
+  }
+  .team-card {
     width: 100%;
   }
 }
