@@ -209,7 +209,6 @@
 }
 .heading {
   font-size: 50px;
-  font-weight: bolder !important;
   text-transform: uppercase;
 }
 .title {
@@ -264,14 +263,14 @@
   margin-right: 12% !important;
 }
 .text-heading {
-  border: 3px solid white;
+  border: 1px solid white;
 }
 .blue {
-  border: 3px solid #4bb7f4;
+  border: 1px solid #4bb7f4;
 }
 .about {
   background-color: #060611;
-  border: 3px solid #4bb7f4;
+  border: 1px solid #4bb7f4;
 }
 .btn1 {
   border: none;

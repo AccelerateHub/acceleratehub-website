@@ -190,7 +190,7 @@ h4 {
 }
 .page-title h2 {
   padding: 5px;
-  border: 3px solid var(--bg-color);
+  border: 1px solid var(--bg-color);
   width: 289px;
 }
 .our-story {
@@ -200,7 +200,7 @@ h4 {
 
 .our-story h2 {
   padding: 5px;
-  border: 3px solid var(--bg-color);
+  border: 1px solid var(--bg-color);
   text-align: center;
   margin-bottom: 20px;
 }
@@ -208,7 +208,7 @@ h4 {
 .intro {
   background-color: var(--bg-dark-blue);
   padding: 20px;
-  border: 3px solid var(--light-blue);
+  border: 1px solid var(--light-blue);
   margin-bottom: 20px;
 }
 
@@ -237,14 +237,14 @@ h4 {
 }
 
 .wita-lead h2 {
-  border: 3px solid #fff;
+  border: 1px solid #fff;
   text-align: center;
 }
 
 .wita-text {
   background-color: var(--bg-dark-blue);
   padding: 20px;
-  border: 3px solid var(--light-blue);
+  border: 1px solid var(--light-blue);
   background-color: var(--bg-dark-blue);
 }
 
@@ -258,25 +258,25 @@ h4 {
   width: 300px;
   text-align: center;
   padding: 5px;
-  border: 3px solid var(--bg-color);
+  border: 1px solid var(--bg-color);
 }
 .core-item {
   padding: 30px;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   margin-top: 20px;
 }
 
 .yellow {
-  border: 3px solid #edf518;
+  border: 1px solid #edf518;
 }
 .orange {
-  border: 3px solid #fa6b43;
+  border: 1px solid #fa6b43;
 }
 .blue {
-  border: 3px solid #4bb7f4;
+  border: 1px solid #4bb7f4;
 }
 .white {
-  border: 3px solid #fff;
+  border: 1px solid #fff;
 }
 @media (max-width: 800px) {
   p {
@@ -293,7 +293,7 @@ h4 {
   .intro {
     position: relative;
     padding: 40px;
-    border: 3px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     z-index: 1000;
     width: 597px;
   }

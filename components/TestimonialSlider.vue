@@ -48,7 +48,7 @@ export default {
 </script>
 <style scoped>
 .testimonial-card {
-  border: 3px solid #4bb7f4;
+  border: 1px solid #4bb7f4;
   height: 325px;
 }
 .heading {

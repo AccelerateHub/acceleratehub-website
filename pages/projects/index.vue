@@ -208,7 +208,7 @@ export default {
 .big {
   text-transform: uppercase;
   font-weight: 600;
-  border: 3px solid white;
+  border: 1px solid white;
 }
 .our-story {
   margin-top: 30px;
@@ -216,7 +216,7 @@ export default {
 }
 .our-story h2 {
   padding: 5px;
-  border: 3px solid var(--bg-color);
+  border: 1px solid var(--bg-color);
   text-align: center;
   margin-bottom: 20px;
 }
@@ -224,7 +224,7 @@ export default {
 .intro {
   background-color: var(--bg-dark-blue);
   padding: 20px;
-  border: 3px solid var(--light-blue);
+  border: 1px solid var(--light-blue);
   margin-bottom: 20px;
 }
 h2 {
@@ -265,7 +265,7 @@ h5 {
 .diig h2 {
   text-align: center;
   padding: 5px;
-  border: 3px solid var(--bg-color);
+  border: 1px solid var(--bg-color);
   margin-bottom: 20px;
 }
 
@@ -273,7 +273,7 @@ h5 {
   margin-top: 10px;
   background-color: var(--bg-dark-blue);
   padding: 20px;
-  border: 3px solid var(--light-blue);
+  border: 1px solid var(--light-blue);
   margin-bottom: 20px;
 }
 
@@ -285,7 +285,7 @@ h5 {
   margin-bottom: 80px;
 }
 .other-diig h2 {
-  border: 3px solid #fff;
+  border: 1px solid #fff;
   text-align: center;
   padding: 10px;
 }
@@ -300,19 +300,19 @@ h5 {
   width: 300px;
   text-align: center;
   padding: 5px;
-  border: 3px solid var(--bg-color);
+  border: 1px solid var(--bg-color);
 }
 .core-item {
   padding: 30px;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   margin-top: 20px;
 }
 
 .yellow {
-  border: 3px solid #edf518;
+  border: 1px solid #edf518;
 }
 .orange {
-  border: 3px solid #fa6b43;
+  border: 1px solid #fa6b43;
 }
 @media (max-width: 800px) {
   img {
@@ -326,7 +326,7 @@ h5 {
   .intro {
     position: relative;
     padding: 40px;
-    border: 3px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     z-index: 1000;
     width: 597px;
   }
@@ -349,7 +349,7 @@ h5 {
   }
   .diig-content {
     margin-top: 0px;
-    border: 3px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     padding: 30px;
   }
 

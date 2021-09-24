@@ -2,7 +2,7 @@ export default [
   {
     // image: '',
     stack: '',
-    name: 'Ismail',
+    name: 'Ajibade Ismail',
     msg: "Honestly, I had little idea how the I.T world operate before coming down to PH, even though I'd wanted to become a CEH then I still have great challenge in securing a laptop for myself even till now. But then joining the community (Accelerate hub) had actually exposed me to lot of reality about tech world and I.T at large from attending several activities and workshop. I'm really grateful for the knowledge gained so far..      ",
   },
   {

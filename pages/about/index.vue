@@ -166,7 +166,7 @@ export default {
 }
 .our-story h2 {
   padding: 5px;
-  border: 3px solid var(--bg-color);
+  border: 1px solid var(--bg-color);
   text-align: center;
   margin-bottom: 20px;
 }
@@ -176,7 +176,7 @@ h6 {
 .intro {
   background-color: var(--bg-dark-blue);
   padding: 20px;
-  border: 3px solid var(--light-blue);
+  border: 1px solid var(--light-blue);
   margin-bottom: 20px;
   width: 550px !important;
 }
@@ -190,7 +190,7 @@ h6 {
   margin-right: 0px !important;
 }
 .text-heading {
-  border: 3px solid white;
+  border: 1px solid white;
 }
 .intro h5 {
   color: var(--bg-yellow);
@@ -220,7 +220,7 @@ h6 {
 .about-us h2 {
   text-align: center;
   padding: 5px;
-  border: 3px solid var(--bg-color);
+  border: 1px solid var(--bg-color);
   margin-bottom: 20px;
 }
 
@@ -228,7 +228,7 @@ h6 {
   margin-top: 10px;
   background-color: var(--bg-dark-blue);
   padding: 20px;
-  border: 3px solid var(--light-blue);
+  border: 1px solid var(--light-blue);
   margin-bottom: 20px;
 }
 
@@ -239,7 +239,7 @@ h6 {
 }
 .partners h2 {
   padding: 5px;
-  border: 3px solid var(--bg-color);
+  border: 1px solid var(--bg-color);
   width: 300px;
   text-align: center;
 }
@@ -252,11 +252,11 @@ h6 {
   width: 300px;
   text-align: center;
   padding: 5px;
-  border: 3px solid var(--bg-color);
+  border: 1px solid var(--bg-color);
 }
 .core-item {
   padding: 30px;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   margin-top: 20px;
 }
 .core-values h4 {
@@ -266,16 +266,16 @@ h6 {
 }
 
 .yellow {
-  border: 3px solid #edf518;
+  border: 1px solid #edf518;
 }
 .orange {
-  border: 3px solid #fa6b43;
+  border: 1px solid #fa6b43;
 }
 .blue {
-  border: 3px solid #4bb7f4;
+  border: 1px solid #4bb7f4;
 }
 .white {
-  border: 3px solid #fff;
+  border: 1px solid #fff;
 }
 @media (max-width: 800px) {
   .intro {
@@ -292,7 +292,7 @@ h6 {
   .intro {
     position: relative;
     padding: 40px;
-    border: 3px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     z-index: 1000;
     width: 597px;
   }
@@ -316,7 +316,7 @@ h6 {
   }
   .about-content {
     margin-top: 0px;
-    border: 3px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     padding: 30px;
   }
 

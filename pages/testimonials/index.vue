@@ -46,14 +46,14 @@ export default {
 .big {
   text-transform: uppercase;
   font-weight: 600;
-  border: 3px solid white;
+  border: 1px solid white;
 }
 .cover {
   margin-left: 12% !important;
   margin-right: 12% !important;
 }
 .testimonial-card {
-  border: 3px solid #4bb7f4;
+  border: 1px solid #4bb7f4;
   height: 400px;
 }
 .heading {

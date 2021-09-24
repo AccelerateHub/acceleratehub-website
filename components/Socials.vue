@@ -25,7 +25,7 @@
 .big {
   text-transform: uppercase;
   font-weight: 600;
-  border: 3px solid white;
+  border: 1px solid white;
 }
 .social {
   background-color: #4bb7f4;
