@@ -324,11 +324,11 @@
   }
   .frame-6,
   .frame-1 {
-    top: 62%;
+    top: 70%;
   }
   .frame-5,
   .frame-2 {
-    top: 55%;
+    top: 60%;
   }
   .img-1 {
     width: 100%;
