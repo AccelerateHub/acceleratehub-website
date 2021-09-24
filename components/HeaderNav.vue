@@ -24,7 +24,7 @@
         <div class="pt-2">WITA</div>
       </nuxt-link>
       <nuxt-link to="/testimonials">
-        <div class="pt-2">TESTIONIALS</div>
+        <div class="pt-2">TESTIMONIALS</div>
       </nuxt-link>
       <nuxt-link to="">
         <div class="pt-2">BLOG</div>
@@ -57,7 +57,7 @@
         <div class="py-3">WITA</div>
       </nuxt-link>
       <nuxt-link to="/testimonials">
-        <div class="py-3">TESTIONIALS</div>
+        <div class="py-3">TESTIMONIALS</div>
       </nuxt-link>
       <nuxt-link to="">
         <div class="py-3">BLOG</div>
