@@ -111,13 +111,14 @@
         <div class="about px-lg-5 p-3 py-4 my-4">
           <div class="big pb-2 name">UN SUSTAINBLE DEVELOPMENT GOALS</div>
           <div class="pb-lg-5 mb-3 text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra at
-            gravida mi venenatis nunc, tristique fringilla interdum. Pretium,
-            consectetur turpis ipsum arcu. Erat egestas in consectetur feugiat
-            nullam. Odio nunc bibendum fames quis blandit pretium etiam integer
-            velit. Magna sem tristique vitae mauris. Blandit vehicula
-            pellentesque proin ipsum, blandit volutpat. Nullam diam egestas
-            purus vulputate pellentesque.
+            Accelerate Innovation Hub is focused on solving few SDG goals, as
+            part of our commitment to a better society and world.
+            <br /><br />
+            We are committed to solving SDG 4, 5, and 11, which are “Quality
+            Education, Gender Equality and Sustainable cities” respectively.
+            <br /><br />
+            Having that in our agenda, we have put in place, different programs,
+            projects, and guides that will help us accomplish that.
           </div>
           <!-- <div class="mt-3">
             <input class="p-3 px-5 btn1" type="button" value="KNOW MORE" />
@@ -125,19 +126,19 @@
         </div>
       </div>
       <div class="col-lg-3">
-        <div class="big p-3 blue mb-3">
+        <div class="big p-4 blue mb-2">
           quality education
           <div class="my-3">
             <input class="px-4 p-3 btn3" type="button" value="View Projects" />
           </div>
         </div>
-        <div class="big p-3 blue mb-3">
+        <div class="big p-4 blue mb-3">
           gender equality
           <div class="my-3">
             <input class="px-4 p-3 btn3" type="button" value="View Projects" />
           </div>
         </div>
-        <div class="big p-3 blue mb-3">
+        <div class="big p-4 blue">
           sustainable cities & communities
           <div class="my-3">
             <input class="px-4 p-3 btn3" type="button" value="View Projects" />
@@ -217,6 +218,7 @@
 }
 .heading span {
   color: #edf518;
+  font-weight: 900;
 }
 .frame-1 {
   position: absolute;

@@ -4,35 +4,33 @@
       :autoplay="true"
       :nav="false"
       :loop="true"
-      :dots="false"
+      :dots="true"
       :responsive="{
         0: { items: 1, nav: false },
         900: { items: 2, nav: false },
         1200: { items: 3 },
       }"
     >
-      <div v-for="team in teams" :key="team.name" class="m-lg-3">
-        <img class="team-img" :src="'img/team/' + team.image" />
+      <div v-for="user in gallery" :key="user.image" class="m-lg-3">
+        <img class="team-img" :src="'img/Gallery/' + user.image" />
       </div>
     </carousel>
   </div>
 </template>
 <script>
-import teams from '~/static/data/team.js'
+import gallery from '~/static/data/gallery.js'
 import carousel from 'vue-owl-carousel'
 export default {
   components: { carousel },
 
-  name: 'Teams',
+  name: 'Gallery',
   data() {
     return {
-      teams,
+      gallery,
     }
   },
 }
 </script>
 <style scoped>
-.team-img {
-  height: 300px;
-}
+
 </style>

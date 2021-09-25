@@ -39,8 +39,19 @@
             </div>
             <div class="col-12 col-md-5">
               <div class="our-story-images">
-                <img src="~static/img/bg-face.png" alt="" />
-                <img src="~static/img/bg-face-min.png" alt="" />
+                <img src="~static/img/Rectangle 26.png" alt="" />
+                <div class="d-flex p-lg-2 ml-lg-5 pl-lg-5">
+                  <img
+                    class="mx-lg-4 wita-img"
+                    src="~static/img/45 1.png"
+                    alt=""
+                  />
+                  <img
+                    class="wita-img"
+                    src="~static/img/46 1.png"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -51,7 +62,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6">
-              <img src="~static/img/bg-face-min.png" alt="" />
+              <img src="~static/img/Rectangle 32.png" alt="" />
             </div>
             <div class="col-12 col-md-6">
               <h2>WITA LEAD</h2>
@@ -161,6 +172,19 @@
           </div>
         </div>
       </section>
+      <section>
+        <div class="row mx-lg-5 px-lg-5">
+          <div class="col-lg-4 m-lg-2">
+            <div class="big text-heading p-3">meet face of wita</div>
+          </div>
+          <div class="col-12">
+            <FaceOfWitaSlider />
+          </div>
+          <div class="col-12 my-5">
+            <Socials />
+          </div>
+        </div>
+      </section>
     </main>
     <FooterNav />
   </div>
@@ -197,7 +221,17 @@ h4 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-
+.big {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.cover {
+  margin-left: 12% !important;
+  margin-right: 12% !important;
+}
+.text-heading {
+  border: 1px solid white;
+}
 .our-story h2 {
   padding: 5px;
   border: 1px solid var(--bg-color);
@@ -220,9 +254,9 @@ h4 {
   width: 100%;
 }
 
-.our-story-images img:last-child {
+/* .our-story-images img:last-child {
   margin-top: 40px;
-}
+} */
 
 /* WITA LEAD */
 
@@ -277,6 +311,10 @@ h4 {
 }
 .white {
   border: 1px solid #fff;
+}
+.wita-img :first-child {
+  width: 100%;
+  height: 150px;
 }
 @media (max-width: 800px) {
   p {

@@ -2,7 +2,7 @@ export default [
   {
     image: 'GodwinJ.jpg',
     name: 'Godwin Jimmy',
-    title: 'Founder, Back End Developer, Project Manager',
+    title: 'Founder, Technical Project Manager, Product Manager and SCRUM Master',
     facebook: 'https://facebook.com/iamgodwinjimmy',
     twitter: 'https://twitter.com/iamgodwinjimmy',
     linkedin: 'https://www.linkedin.com/in/godwin-jimmy-akpabio-057b1a10b'

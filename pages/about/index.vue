@@ -6,10 +6,10 @@
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-5">
-              <div class="big mb-4 p-3 px-lg-5 text-heading">our story</div>
-              <div class="intro">
+              <div class="big mb-5 p-3 px-lg-5 text-heading">our story</div>
+              <div class="intro py-5">
                 <h6>ACCELERATE INNOVATION HUB</h6>
-                <p>
+                <p class="py-4">
                   In February 2004, in a dorm room at Harvard University Mark
                   Zuckerberg, launched a website that is currently worth over
                   $600+ Billion, now that is the part of the narrative that is
@@ -34,8 +34,8 @@
             </div>
             <div class="col-12 col-md-5">
               <div class="our-story-images">
-                <img src="~static/img/bg-face.png" alt="" />
-                <img src="~static/img/bg-face-min.png" alt="" />
+                <img src="~static/img/Mask Group-2.png" alt="" />
+                <img src="~static/img/Mask Group-1.png" alt="" />
               </div>
             </div>
           </div>
@@ -49,7 +49,7 @@
               <div class="heading-mobile">
                 <h2>ABOUT US</h2>
               </div>
-              <img src="~static/img/bg-face-min.png" alt="" />
+              <img src="~static/img/Mask Group.png" alt="" />
             </div>
             <div class="col-12 col-md-6">
               <div class="heading">
@@ -76,7 +76,7 @@
           </div>
         </div>
         <div class="m-3 m-lg-0">
-          <GallarySlider />
+          <PartnersSlider />
         </div>
       </section>
 

@@ -131,7 +131,7 @@ a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #fa6b43;
+  color: #fff;
   display: block;
   transition: 0.3s;
 }

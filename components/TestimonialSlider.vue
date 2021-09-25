@@ -4,7 +4,7 @@
       :autoplay="true"
       :nav="false"
       :loop="true"
-      :dots="false"
+      :dots="true"
       :responsive="{
         0: { items: 1, nav: false },
         900: { items: 2, nav: false },
@@ -21,7 +21,7 @@
             <img class="user" src="../assets/Ellipse 2.png" alt="" />
             <div class="pl-3">
               <div class="heading">{{ testimonial.name }}</div>
-              <div class="stack">UIUX Track</div>
+              <div class="stack">{{testimonial.stack}}</div>
             </div>
           </div>
           <div class="py-3 text">
@@ -49,7 +49,7 @@ export default {
 <style scoped>
 .testimonial-card {
   border: 1px solid #4bb7f4;
-  height: 325px;
+  height: 330px;
 }
 .heading {
   color: #edf518;
