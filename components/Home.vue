@@ -295,8 +295,6 @@
 }
 .overlay-1 {
   height: 22% !important;
-  /* padding-right: 15% !important; */
-  /* margin-right: -35%; */
 }
 .btn3 {
   background-color: #fff !important;
