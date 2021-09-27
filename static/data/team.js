@@ -343,4 +343,53 @@ export default [
     // twitter: 'https://twitter.com/hiatus_01'
     // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
   },
+  {
+    image: 'george.jpeg',
+    name: 'soberelon george',
+    title: '3d Artist'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'carlmax.jpg',
+    name: 'carl max',
+    title: 'Animator'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'loveth.jpeg',
+    name: 'Loveth okeke',
+    title: 'Web Developer'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'EDMUND.jpeg',
+    name: 'nkem edmund',
+    title: 'Web Developer'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'ClintonBrown.jpeg',
+    name: 'Clinton brown',
+    title: 'Web Developer'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'TammyMosesMinimah.jpeg',
+    name: 'Tammy moses',
+    title: 'Game Developer'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'TamunotonyeAdokiyeEmmanuel.jpeg',
+    name: 'Tamunotonye Adokiye',
+    title: 'Full Stack Developer'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
 ]
