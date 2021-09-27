@@ -19,7 +19,7 @@ export default [
   },
   {
     // image: '',
-    stack: 'Web developer',
+    stack: 'UI/UX designer',
     name: 'Gold Osaro',
     msg: "Accelerate Innovative Hub emphasizes on goal 5 of the SDGs 'gender equality' and with no sentiment, they carry both females and males along in the doings of the hub.  The hub have carried out if not more than two female program as to carry females along in the tech space to which I have been a beneficiary",
   },
@@ -55,8 +55,8 @@ export default [
   },
   {
     // image: '',
-    stack: 'Abdul    ',
-    name: 'Web Developer   ',
+    stack: 'Web Developer  ',
+    name: 'Bammodu Abdulqudus',
     msg: "Learning code became my obsession. In 2019, I joined Accelerate  Innovation Hub and the rest is history. I am happy to be the part of the family.",
   },
   {
@@ -82,6 +82,24 @@ export default [
     stack: '3d Modelling artist/Animator    ',
     name: 'GEORGE SOBEREKON PRECIOUS    ',
     msg: "My name is GEORGE , I am a 3d modelling  Artist/Animator. I got introduced to accelerate hub by a friend, and been in accelerate hub ,I must tell the difference in my tech carrier. I’ve been able to meet more prominent Tech souls and also acquire more skills. Garcia’s Accelerate Hub!    ",
+  },
+  {
+    // image: '',
+    stack: 'AZURE cloud engineer',
+    name: 'Victor Afiesimama     ',
+    msg: "I want to use this medium to say big thanks to Louis Whyte and the Accelerate Hub team for organizing this wonderful two weeks workshop in Ui/UX, Cybersecurity and Devops. I've learnt a lot from the workshop and I hope more workshops like this will be organized in the future so that many others can benefit as well.    ",
+  },
+  {
+    // image: '',
+    stack: 'UI/UX Designer',
+    name: 'Stephanie Agbo',
+    msg: "Accelerate is a place I entered and immediately felt at home. The first time I came to the hub, the lead Mr Louis, showed me the kinda reception that made me feel at home. Every member of accelerate is nice, I felt accepted immediately. They didn't know me from anywhere,but it felt like I have known them all my life. ",
+  },
+  {
+    // image: '',
+    stack: 'Product/Graphics designer',
+    name: 'Blessing Anyanwu    ',
+    msg: "I joined Accelerate hub as a graphic designer and a student in my year one. At the first tech event organized by the hub, I was given an opportunity to speak to students about the business opportunities in Technology, after which I was made the design lead for the hub. Today, I am not just a proud graphic designer but also a product designer and have gotten exposure to speak at different tech events and an opportunity to network with people.",
   },
   // {
   //   // image: '',

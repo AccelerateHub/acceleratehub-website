@@ -26,9 +26,9 @@
       <nuxt-link to="/testimonials">
         <div class="pt-2">TESTIMONIALS</div>
       </nuxt-link>
-      <nuxt-link to="">
+      <a href="https://www.medium.com/@acceleratehubng">
         <div class="pt-2">BLOG</div>
-      </nuxt-link>
+      </a>
       <nuxt-link to="/contact">
         <div class="pt-2">CONTACT US</div>
       </nuxt-link>

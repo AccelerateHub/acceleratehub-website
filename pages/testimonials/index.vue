@@ -14,7 +14,7 @@
               <img class="user" src="../../assets/Ellipse 2.png" alt="" />
               <div class="pl-3">
                 <div class="heading">{{testimonial.name}}</div>
-                <div class="stack">UIUX Track</div>
+                <div class="stack">{{testimonial.stack}}</div>
               </div>
             </div>
             <div class="py-3">

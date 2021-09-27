@@ -4,18 +4,36 @@
       <div class="row px-lg-2 pb-4">
         <div class="col-lg-2 mx-lg-5">
           <div class="heading mb-3">NAVIGATE</div>
-          <div class="py-1">HOME</div>
-          <div class="py-1">ABOUT US</div>
-          <div class="py-1">BLOG</div>
-          <div class="py-1">OUR TEAM</div>
+          <nuxt-link to="/">
+            <div class="py-1">HOME</div>
+          </nuxt-link>
+          <nuxt-link to="/about">
+            <div class="py-1">ABOUT US</div>
+          </nuxt-link>
+          <nuxt-link to="">
+            <div class="py-1">BLOG</div>
+          </nuxt-link>
+          <nuxt-link to="/team">
+            <div class="py-1">OUR TEAM</div>
+          </nuxt-link>
         </div>
         <div class="col-lg-1 mx-lg-5">
           <div class="heading mb-3">SOCIALS</div>
-          <div class="py-1">FACEBOOK</div>
-          <div class="py-1">TWITTER</div>
-          <div class="py-1">LINKEDIN</div>
-          <div class="py-1">INSTAGRAM</div>
-          <div class="py-1">YOUTUBE</div>
+          <a href="https://web.facebook.com/acceleratehubng">
+            <div class="py-1">FACEBOOK</div>
+          </a>
+          <a href="https://twitter.com/acceleratehubng">
+            <div class="py-1">TWITTER</div>
+          </a>
+          <a href="https://www.linkedin.com/company/acceleratehubng/">
+            <div class="py-1">LINKEDIN</div>
+          </a>
+          <a href="https://instagram.com/acceleratehubng">
+            <div class="py-1">INSTAGRAM</div>
+          </a>
+          <a href="https://youtube.com/acceleratehubng">
+            <div class="py-1">YOUTUBE</div>
+          </a>
         </div>
         <div class="col-lg-2 mx-lg-5">
           <div class="heading mb-3">LINKS</div>
@@ -23,7 +41,9 @@
             <input class="p-2 px-4" type="button" value="JOIN US" />
           </div>
           <div class="py-1">
-            <input class="p-2 px-4" type="button" value="CONTACT US" />
+            <nuxt-link to="/contact">
+              <input class="p-2 px-4" type="button" value="CONTACT US" />
+            </nuxt-link>
           </div>
         </div>
         <div class="col-lg-4 text-lg-right text-left">
@@ -64,5 +84,11 @@ input {
 }
 img {
   width: 40px;
+}
+a {
+  color: white;
+}
+a:hover {
+  text-decoration: none;
 }
 </style>

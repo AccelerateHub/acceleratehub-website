@@ -216,5 +216,152 @@ export default [
     title: 'Digital Marketer'
     // twitter: 'https://twitter.com/hiatus_01'
     // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
-  }
+  },
+  {
+    image: 'David Theodora.jpg',
+    name: 'David Theodora',
+    title: 'Technical Writer, Novelist'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'Benjamin Ajah.jpg',
+    name: 'Benjamin Ajah',
+    title: 'Front End Developer'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'Precious Awa.jpg',
+    name: 'Precious Awa',
+    title: 'Graphic designer'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'ruth Charles.jpg',
+    name: 'Ruth Charles',
+    title: 'Web Developer'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  }, 
+  {
+    image: 'Wisdom Ojimah.jpg',
+    name: 'Wisdom Ojimah',
+    title: 'Full Stack Developer'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'Enaanapu Gabriel.jpg',
+    name: 'Enaanapu Gabriel',
+    title: 'Content dev'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'Victor Ishmael.jpg',
+    name: 'Victor Ishmael',
+    title: 'UIUX Designer'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'Stella Nteirien.jpg',
+    name: 'Stella Nteirien',
+    title: 'Data Scientist'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'Benjamin Ajah.jpg',
+    name: 'Benjamin Ajah',
+    title: 'front End Developer'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'Awajionyi Jonah.jpg',
+    name: 'Awajionyi Jonah',
+    title: 'UIUX, Graphics Designer'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'Daisy Alabere.jpg',
+    name: 'Daisy Alabere',
+    title: 'UIUX Designer'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'Ufuoma Dick Moses.jpg',
+    name: 'Ufuoma Dick Moses',
+    title: 'Data Scientist'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'Gift kenneth Gigi.jpg',
+    name: 'Gift kenneth Gigi',
+    title: 'Data Scientist'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'Ayaosi Godfrey.jpg',
+    name: 'Ayaosi Godfrey',
+    title: 'Product Manager'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'Ebelike Eunice.jpg',
+    name: 'Ebelike Eunice',
+    title: 'UIUX Designer'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'Jacia Ebubechi.jpg',
+    name: 'Jacia Ebubechi',
+    title: 'data Scientist'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'Omu Inetimi.jpg',
+    name: 'Omu Inetimi',
+    title: 'Back End Developer'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'Akah Sophia.jpg',
+    name: 'Akah Sophia',
+    title: 'Content Dev'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'Barry Fidelis.jpg',
+    name: 'Barry Fidelis',
+    title: 'UIUX Designer'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'Omu Inetimi.jpg',
+    name: 'Omu Inetimi ',
+    title: 'Back End Developer'
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
+  {
+    image: 'Jubilee Afia.jpg',
+    name: 'Jubilee Afia',
+    title: ''
+    // twitter: 'https://twitter.com/hiatus_01'
+    // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
+  },
 ]

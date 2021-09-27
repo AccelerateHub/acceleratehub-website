@@ -4,7 +4,7 @@
       :autoplay="true"
       :nav="false"
       :loop="true"
-      :dots="true"
+      :dots="false"
       :responsive="{
         0: { items: 1, nav: false },
         900: { items: 2, nav: false },

@@ -11,7 +11,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-12 col-md-5">
+            <div class="col-lg-6 col-md-5">
               <div class="intro">
                 <h4>SPARK</h4>
                 <p>
@@ -36,7 +36,7 @@
                 <h5>READ MORE</h5>
               </div>
             </div>
-            <div class="col-12 col-md-5">
+            <div class="col-lg-6 col-md-5">
               <div class="our-story-images">
                 <img src="~static/img/bg-face.png" alt="" />
               </div>
