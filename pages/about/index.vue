@@ -57,11 +57,11 @@
               </div>
               <div class="about-content">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  sit pellentesque cursus faucibus commodo purus in vel. Augue
-                  cras at tempus, eu. Amet, nec maecenas leo ornare lectus
-                  habitasse ipsum adipiscing urna. Lorem mauris amet in
-                  pellentesque.
+                  Accelerate Innovation Hub is a tech community that facilitates
+                  development in technology, entrepreneurship, through
+                  mentorship, trainings, collaboration, events etc. with the
+                  hope of building an digital ecosystem while solving problems
+                  in SDG 4, 5 and 11.
                 </p>
               </div>
             </div>
