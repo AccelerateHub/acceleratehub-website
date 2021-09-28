@@ -15,23 +15,17 @@
               <div class="intro">
                 <h4>OUR STORY</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Turpis dictum ac nisl in lectus facilisi. Egestas vestibulum,
-                  nullam a commodo adipiscing maecenas pretium tristique quis.
-                  Viverra ut ut diam, in. Accumsan felis vestibulum sit id ac.
-                  Quisque magna fermentum, congue maecenas in. Nam morbi nibh
-                  magnis amet vulputate elementum fames tortor in. Nam sapien
-                  sit porta ut suspendisse ipsum neque egestas integer.
-                  Habitasse imperdiet metus morbi risus. Faucibus quis nunc
-                  arcu, at. Placerat etiam felis urna cras dapibus mauris.
-                  Tempus, et diam vulputate viverra vel. Nibh lacus vulputate
-                  vitae quam libero diam. Pellentesque tincidunt at pellentesque
-                  tellus. Duis interdum vitae velit eget. Consequat, id donec
-                  nam aliquam lacus phasellus. Facilisis cras ut egestas
-                  bibendum sagittis commodo. Imperdiet adipiscing in praesent
-                  dolor pretium. Dolor laoreet natoque neque, fermentum molestie
-                  convallis id nec quam. Ut mus vitae lorem sagittis ipsum. Et
-                  commodo et, viverra venenatis. In magna tempor mauris.
+                  The world is filled with male in dominance of the tech space, thus, we can say that women are poorly represented in technology as well as other parts of STEM.
+                </p>
+                <p>
+                  Research may tell you that women in tech globally are about 30% to 40% at an average, not only are they poorly represented but they are also underpaid.
+                </p>
+                <p>
+                  Why this tendering gap, why the bridge in technology?
+                  Few reasons for this are; The ideology that people have in this part of the world that tech is meant for guys and that females  shouldnt advance in their career.
+                </p>
+                <p>
+                  Women in Tech in Accelerate is a section of Accelerate Innovation Hub that tends to bridge this gap by promoting digital inclusion for all, gender equality and equal opportunities for everyone. We hope to achieve this by having an enabling environment to advance more women into tech.
                 </p>
                 <h5>LOUIS WHYTE JONAH</h5>
                 <p>Product Designer, Accelerate Innovation Hub</p>
@@ -68,11 +62,7 @@
               <h2>WITA LEAD</h2>
               <div class="wita-text">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  sit pellentesque cursus faucibus commodo purus in vel. Augue
-                  cras at tempus, eu. Amet, nec maecenas leo ornare lectus
-                  habitasse ipsum adipiscing urna. Lorem mauris amet in
-                  pellentesque.
+                  It is neither his world nor her world rather it is our world, our technology. Thus, we opine the embrace of inclusion and equal opportunities to better our world through STEM.
                 </p>
                 <h5>NAME OF LEAD</h5>
                 <p>Stack of Women in Tech Lead</p>
@@ -85,10 +75,7 @@
                 <div class="content">
                   <h4>Mission</h4>
                   <p>
-                    Student development is the core and the heartbeat of
-                    Accelerate innovation hub, this is we plan regular programs
-                    and event that enlightens and exposes students to
-                    extracurricular technological-based activities and sessions.
+                    Our mission is to make sure women are well represented in the industry by providing an avenue for them to use technology for social good
                   </p>
                 </div>
               </div>
@@ -98,10 +85,7 @@
                 <div class="content">
                   <h4>Vision</h4>
                   <p>
-                    We also center our energy on the developing tech solutions
-                    that would solve problems in our community and nation at
-                    large and imprve the cost of living. Focusing majorly on UN
-                    SDGs.
+                    To bridge the digital divide in women in tech by creating more opportunties and proper guidance in the tech space.
                   </p>
                 </div>
               </div>
@@ -117,12 +101,9 @@
             <div class="col-12 col-md-6">
               <div class="core-item orange">
                 <div class="content">
-                  <h4>Student Development</h4>
+                  <h4>INTERDiversity</h4>
                   <p>
-                    Student development is the core and the heartbeat of
-                    Accelerate innovation hub, this is we plan regular programs
-                    and event that enlightens and exposes students to
-                    extracurricular technological-based activities and sessions.
+                    We aim to produce a more efficient and better ability to make crucial decisions through Women. By presenting them with their skills, creativity and talents which are a plus for the tech solutions & world.
                   </p>
                 </div>
               </div>
@@ -130,12 +111,9 @@
             <div class="col-12 col-md-6">
               <div class="core-item blue">
                 <div class="content">
-                  <h4>TECH Solutions</h4>
+                  <h4>INNOVATIVE MINDS</h4>
                   <p>
-                    We also center our energy on the developing tech solutions
-                    that would solve problems in our community and nation at
-                    large and imprve the cost of living. Focusing majorly on UN
-                    SDGs.
+                    By building Women in tech, we allow their innovative minds to play an important role to understanding the specific needs of women in certain areas. This can represent women and the consumer needs.
                   </p>
                 </div>
               </div>
@@ -144,13 +122,10 @@
               <div class="core-item white">
                 <div class="content">
                   <h4>
-                    Virtual Reality / Augmented Reality (VR/AR) Development
+                    GENDER EQUALITY
                   </h4>
                   <p>
-                    Pushing the barriers of technology with VR/AR, starting with
-                    its development, we aim to bring digital solutions to
-                    Varsities, solving technical problems and tech innovations
-                    through learning.
+                    We create an environment that pushes and supports women into tech. With networking opportunities that allows them to explore and develop, we aim to close Gender Gap and Inequality balance.
                   </p>
                 </div>
               </div>
@@ -158,13 +133,9 @@
             <div class="col-12 col-md-6">
               <div class="core-item yellow">
                 <div class="content">
-                  <h4>Agriculture Technology</h4>
+                  <h4>COLLABORATION</h4>
                   <p>
-                    As our economy continues to expand the need for an expansion
-                    in the agricultural sector is on the increase this is why as
-                    a technologically based community we seek ways that
-                    technology can be integrated into agriculture to foster the
-                    growth and expansion of the agricultural sector.
+                    By creating an environment for them to collaborate with other groups and women who are already creating solutions in the tech space. Also to enable them share ideas freely and create solutions.
                   </p>
                 </div>
               </div>
