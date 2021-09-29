@@ -15,27 +15,17 @@
               <div class="intro">
                 <h4>OUR STORY</h4>
                 <p>
-                  The world is filled with male in dominance of the tech space,
-                  thus, we can say that women are poorly represented in
-                  technology as well as other parts of STEM.
+                  The world is filled with male in dominance of the tech space, thus, we can say that women are poorly represented in technology as well as other parts of STEM.
                 </p>
                 <p>
-                  Research may tell you that women in tech globally are about
-                  30% to 40% at an average, not only are they poorly represented
-                  but they are also underpaid.
+                  Research may tell you that women in tech globally are about 30% to 40% at an average, not only are they poorly represented but they are also underpaid.
                 </p>
                 <p>
-                  Why this tendering gap, why the bridge in technology? Few
-                  reasons for this are; The ideology that people have in this
-                  part of the world that tech is meant for guys and that females
-                  shouldnt advance in their career.
+                  Why this tendering gap, why the bridge in technology?
+                  Few reasons for this are; The ideology that people have in this part of the world that tech is meant for guys and that females  shouldnt advance in their career.
                 </p>
                 <p>
-                  Women in Tech in Accelerate is a section of Accelerate
-                  Innovation Hub that tends to bridge this gap by promoting
-                  digital inclusion for all, gender equality and equal
-                  opportunities for everyone. We hope to achieve this by having
-                  an enabling environment to advance more women into tech.
+                  Women in Tech in Accelerate is a section of Accelerate Innovation Hub that tends to bridge this gap by promoting digital inclusion for all, gender equality and equal opportunities for everyone. We hope to achieve this by having an enabling environment to advance more women into tech.
                 </p>
                 <h5>LOUIS WHYTE JONAH</h5>
                 <p>Product Designer, Accelerate Innovation Hub</p>
@@ -50,7 +40,11 @@
                     src="~static/img/45 1.png"
                     alt=""
                   />
-                  <img class="wita-img" src="~static/img/46 1.png" alt="" />
+                  <img
+                    class="wita-img"
+                    src="~static/img/46 1.png"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -62,15 +56,13 @@
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6">
-              <img src="~static/img/team/Favour.png" alt="" />
+              <img  src="~static/img/team/Favour.png" alt="" />
             </div>
             <div class="col-12 col-md-6">
               <h2>WITA LEAD</h2>
               <div class="wita-text">
                 <p>
-                  It is neither his world nor her world rather it is our world,
-                  our technology. Thus, we opine the embrace of inclusion and
-                  equal opportunities to better our world through STEM.
+                  It is neither his world nor her world rather it is our world, our technology. Thus, we opine the embrace of inclusion and equal opportunities to better our world through STEM.
                 </p>
                 <h5>FAVOUR AYOZIE</h5>
                 <p>Lead, Women in Tech Accelerate</p>
@@ -83,9 +75,7 @@
                 <div class="content">
                   <h4>Mission</h4>
                   <p>
-                    Our mission is to make sure women are well represented in
-                    the industry by providing an avenue for them to use
-                    technology for social good
+                    Our mission is to make sure women are well represented in the industry by providing an avenue for them to use technology for social good
                   </p>
                 </div>
               </div>
@@ -95,8 +85,7 @@
                 <div class="content">
                   <h4>Vision</h4>
                   <p>
-                    To bridge the digital divide in women in tech by creating
-                    more opportunties and proper guidance in the tech space.
+                    To bridge the digital divide in women in tech by creating more opportunties and proper guidance in the tech space.
                   </p>
                 </div>
               </div>
@@ -114,10 +103,7 @@
                 <div class="content">
                   <h4>INTERDiversity</h4>
                   <p>
-                    We aim to produce a more efficient and better ability to
-                    make crucial decisions through Women. By presenting them
-                    with their skills, creativity and talents which are a plus
-                    for the tech solutions & world.
+                    We aim to produce a more efficient and better ability to make crucial decisions through Women. By presenting them with their skills, creativity and talents which are a plus for the tech solutions & world.
                   </p>
                 </div>
               </div>
@@ -127,10 +113,7 @@
                 <div class="content">
                   <h4>INNOVATIVE MINDS</h4>
                   <p>
-                    By building Women in tech, we allow their innovative minds
-                    to play an important role to understanding the specific
-                    needs of women in certain areas. This can represent women
-                    and the consumer needs.
+                    By building Women in tech, we allow their innovative minds to play an important role to understanding the specific needs of women in certain areas. This can represent women and the consumer needs.
                   </p>
                 </div>
               </div>
@@ -138,12 +121,11 @@
             <div class="col-12 col-md-6">
               <div class="core-item white">
                 <div class="content">
-                  <h4>GENDER EQUALITY</h4>
+                  <h4>
+                    GENDER EQUALITY
+                  </h4>
                   <p>
-                    We create an environment that pushes and supports women into
-                    tech. With networking opportunities that allows them to
-                    explore and develop, we aim to close Gender Gap and
-                    Inequality balance.
+                    We create an environment that pushes and supports women into tech. With networking opportunities that allows them to explore and develop, we aim to close Gender Gap and Inequality balance.
                   </p>
                 </div>
               </div>
@@ -153,10 +135,7 @@
                 <div class="content">
                   <h4>COLLABORATION</h4>
                   <p>
-                    By creating an environment for them to collaborate with
-                    other groups and women who are already creating solutions in
-                    the tech space. Also to enable them share ideas freely and
-                    create solutions.
+                    By creating an environment for them to collaborate with other groups and women who are already creating solutions in the tech space. Also to enable them share ideas freely and create solutions.
                   </p>
                 </div>
               </div>
@@ -258,10 +237,10 @@ h4 {
 }
 
 .wita-lead img {
-  width: 50% !important;
+  width: 50%!important;
   margin-bottom: 20px;
-  height: 50vh !important;
-  margin-left: 200px;
+  height: 50vh!important;
+  margin-left: 200px!important;
 }
 .wita-lead h2 {
   border: 1px solid #fff;
@@ -345,7 +324,7 @@ h4 {
     height: 300px;
   }
   .wita-lead img {
-    margin-left: 0px;
-  }
+  margin-left: 0px;
+}
 }
 </style>
