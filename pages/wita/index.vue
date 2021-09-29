@@ -264,7 +264,7 @@ h4 {
   width: 50% !important;
   margin-bottom: 20px;
   height: 50vh !important;
-  margin-left: 200px !important;
+  margin-left: 100px !important;
 }
 .wita-lead h2 {
   border: 1px solid #fff;
