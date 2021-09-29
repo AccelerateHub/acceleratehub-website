@@ -1,7 +1,9 @@
 <template>
   <nav>
     <div id="mobile-nav" class="d-flex justify-content-between p-3 px-4">
-      <img class="logo" src="../assets/hub-logo.png" alt="" />
+      <nuxt-link to="/">
+        <img class="logo" src="../assets/hub-logo.png" alt="" />
+      </nuxt-link>
       <img @click="openNav" src="../assets/menu.svg" alt="" />
     </div>
     <div class="nav p-3">
@@ -18,7 +20,9 @@
         <div class="pt-2">OUR TEAM</div>
       </nuxt-link>
       <div>
-        <img src="../assets/hub-logo.png" alt="" />
+        <nuxt-link to="/">
+          <img src="../assets/hub-logo.png" alt="" />
+        </nuxt-link>
       </div>
       <nuxt-link to="/wita">
         <div class="pt-2">WITA</div>
@@ -53,15 +57,15 @@
       <nuxt-link to="/team">
         <div class="py-3">OUR TEAM</div>
       </nuxt-link>
-      <nuxt-link to="wita">
+      <nuxt-link to="/wita">
         <div class="py-3">WITA</div>
       </nuxt-link>
       <nuxt-link to="/testimonials">
         <div class="py-3">TESTIMONIALS</div>
       </nuxt-link>
-      <nuxt-link to="">
+      <a href="https://www.medium.com/@acceleratehubng">
         <div class="py-3">BLOG</div>
-      </nuxt-link>
+      </a>
       <nuxt-link to="/contact">
         <div class="py-3">CONTACT US</div>
       </nuxt-link>
@@ -97,7 +101,7 @@ export default {
 }
 a {
   color: white !important;
-  font-weight: 700!important;
+  font-weight: 700 !important;
 }
 div {
   font-weight: 700 !important;

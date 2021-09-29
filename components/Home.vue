@@ -34,13 +34,13 @@
         <div class="about px-lg-5 p-3 py-4 my-4">
           <div class="big pb-2 name">ACCELERATE INNOVATION HUB</div>
           <div class="text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra at
-            gravida mi venenatis nunc, tristique fringilla interdum. Pretium,
-            consectetur turpis ipsum arcu. Erat egestas in consectetur feugiat
-            nullam. Odio nunc bibendum fames quis blandit pretium etiam integer
-            velit. Magna sem tristique vitae mauris. Blandit vehicula
-            pellentesque proin ipsum, blandit volutpat. Nullam diam egestas
-            purus vulputate pellentesque.
+            Accelerate Innovation Hub is a tech community that facilitates
+            development in technology, entrepreneurship, through mentorship,
+            trainings, collaboration, events etc. with the hope of building a
+            digital ecosystem for young people while solving problem in our
+            community using technology and especially United Nations Sustainable
+            Development Goals 4 (Quality Education), 5 (Gender Equality) and 11
+            (Sustainable cities and communities).
           </div>
           <div class="mt-3">
             <input class="p-3 px-5 btn1" type="button" value="KNOW MORE" />
@@ -77,9 +77,10 @@
       >
         <div class="big pb-2 name">WOMEN IN TECH IN ACCELERATE</div>
         <div class="text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. At consequat
-          quis pharetra blandit dui eu duis nunc, natoque. Integer ullamcorper
-          risus pellentesque egestas feugiat. Lorem sed morbi.
+          Women in Tech In Accelerate was created to foster collaboration and
+          synergy amonsgt women in technology. Also to promote gender equity in
+          technology through trainings, collaboration, mentorship and supports
+          and opportunities for all WITA members.
         </div>
         <div class="mt-3">
           <input class="p-3 px-5 btn2" type="button" value="KNOW MORE" />
@@ -89,9 +90,14 @@
         <img class="img-1" src="../assets/Rectangle 24.png" alt="" />
       </div>
     </div>
-    <div class="row cover my-4">
+    <div class="row cover justify-content-between my-4">
       <div class="col-lg-4">
         <div class="big p-3 px-lg-5 text-heading">our gallery</div>
+      </div>
+      <div class="col-lg-3">
+        <nuxt-link to="/gallery">
+          <div class="big p-3 px-lg-5 text-heading">see more</div>
+        </nuxt-link>
       </div>
       <div class="col-12">
         <GallarySlider />
@@ -304,6 +310,10 @@
 }
 .sdg-img {
   height: 23%;
+}
+a{
+  color: white;
+  text-decoration: none;
 }
 @media (max-width: 800px) {
   .heading {

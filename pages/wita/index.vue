@@ -15,27 +15,29 @@
               <div class="intro">
                 <h4>OUR STORY</h4>
                 <p>
-                  The world is filled with male in dominance of the tech space,
-                  thus, we can say that women are poorly represented in
-                  technology as well as other parts of STEM.
+                  At present, it is a globally known fact that the world is
+                  filled with male in domination of the Tech world. So we can
+                  say that women are not properly acknowledge and poorly
+                  represented in the Tech world, and as well as in other areas.
                 </p>
                 <p>
-                  Research may tell you that women in tech globally are about
-                  30% to 40% at an average, not only are they poorly represented
-                  but they are also underpaid.
+                  As shown in research, the stats for women in tech are at an
+                  average of 30-40%, not only that but they are also neglected
+                  and underpaid, which is a big problem.
                 </p>
                 <p>
-                  Why this tendering gap, why the bridge in technology? Few
-                  reasons for this are; The ideology that people have in this
-                  part of the world that tech is meant for guys and that females
-                  shouldnt advance in their career.
+                  One may ask what may be the reason for this gap. This is
+                  because, the ideology of gender inequality is still rampant.
+                  This of course gives room to the idea that tech are not
+                  suitable for women as a career.
                 </p>
                 <p>
-                  Women in Tech in Accelerate is a section of Accelerate
-                  Innovation Hub that tends to bridge this gap by promoting
-                  digital inclusion for all, gender equality and equal
-                  opportunities for everyone. We hope to achieve this by having
-                  an enabling environment to advance more women into tech.
+                  Women in Tech Accelerate is a section of the Accelerate
+                  Innovation Hub, that tends to bridge this gap by promotion
+                  digital inclusion, gender equality and networking for
+                  everyone. We hope to achieve this by having an conducive
+                  environment, mentorship, resources and opportunities for women
+                  to advance more into tech.
                 </p>
                 <h5>LOUIS WHYTE JONAH</h5>
                 <p>Product Designer, Accelerate Innovation Hub</p>
@@ -60,12 +62,11 @@
 
       <section class="wita-lead">
         <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6">
+          <div class="row justify-content-center">
+            <div class="col-lg-3">
               <img src="~static/img/team/Favour.png" alt="" />
             </div>
-            <div class="col-12 col-md-6">
-              <div class="mr-lg-5 pr-lg-5">
+            <div class="col-lg-5 mt-2">
                 <h2>WITA LEAD</h2>
                 <div class="wita-text">
                   <p>
@@ -78,7 +79,6 @@
                   <p>Lead, Women in Tech Accelerate</p>
                 </div>
               </div>
-            </div>
           </div>
           <div class="row mt-5">
             <div class="col-12 col-md-6">
@@ -261,10 +261,7 @@ h4 {
 }
 
 .wita-lead img {
-  width: 50% !important;
-  margin-bottom: 20px;
-  height: 50vh !important;
-  margin-left: 100px !important;
+  width: 100% !important;
 }
 .wita-lead h2 {
   border: 1px solid #fff;
