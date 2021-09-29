@@ -1,41 +1,41 @@
 <template>
   <nav>
     <div id="mobile-nav" class="d-flex justify-content-between p-3 px-4">
-      <nuxt-link to="/">
+      <NuxtLink to="/">
         <img class="logo" src="../assets/hub-logo.png" alt="" />
-      </nuxt-link>
+      </NuxtLink>
       <img @click="openNav" src="../assets/menu.svg" alt="" />
     </div>
     <div class="nav p-3">
-      <nuxt-link to="/">
+      <NuxtLink to="/">
         <div class="pt-2">HOME</div>
-      </nuxt-link>
-      <nuxt-link to="/about">
+      </NuxtLink>
+      <NuxtLink to="/about">
         <div class="pt-2">ABOUT US</div>
-      </nuxt-link>
-      <nuxt-link to="/projects">
+      </NuxtLink>
+      <NuxtLink to="/projects">
         <div class="pt-2">PROJECTS</div>
-      </nuxt-link>
-      <nuxt-link to="/team">
+      </NuxtLink>
+      <NuxtLink to="/team">
         <div class="pt-2">OUR TEAM</div>
-      </nuxt-link>
+      </NuxtLink>
       <div>
-        <nuxt-link to="/">
+        <NuxtLink to="/">
           <img src="../assets/hub-logo.png" alt="" />
-        </nuxt-link>
+        </NuxtLink>
       </div>
-      <nuxt-link to="/wita">
+      <NuxtLink to="/wita">
         <div class="pt-2">WITA</div>
-      </nuxt-link>
-      <nuxt-link to="/testimonials">
+      </NuxtLink>
+      <NuxtLink to="/testimonials">
         <div class="pt-2">TESTIMONIALS</div>
-      </nuxt-link>
+      </NuxtLink>
       <a href="https://www.medium.com/@acceleratehubng">
         <div class="pt-2">BLOG</div>
       </a>
-      <nuxt-link to="/contact">
+      <NuxtLink to="/contact">
         <div class="pt-2">CONTACT US</div>
-      </nuxt-link>
+      </NuxtLink>
     </div>
 
     <div id="mySidenav" class="sidenav">
@@ -45,30 +45,30 @@
       <div class="ml-4">
         <img src="../assets/hub-logo.png" alt="" />
       </div>
-      <nuxt-link to="/">
+      <NuxtLink to="/">
         <div class="py-3">HOME</div>
-      </nuxt-link>
-      <nuxt-link to="/about">
+      </NuxtLink>
+      <NuxtLink to="/about">
         <div class="py-3">ABOUT US</div>
-      </nuxt-link>
-      <nuxt-link to="/projects">
+      </NuxtLink>
+      <NuxtLink to="/projects">
         <div class="py-3">PROJECTS</div>
-      </nuxt-link>
-      <nuxt-link to="/team">
+      </NuxtLink>
+      <NuxtLink to="/team">
         <div class="py-3">OUR TEAM</div>
-      </nuxt-link>
-      <nuxt-link to="/wita">
+      </NuxtLink>
+      <NuxtLink to="/wita">
         <div class="py-3">WITA</div>
-      </nuxt-link>
-      <nuxt-link to="/testimonials">
+      </NuxtLink>
+      <NuxtLink to="/testimonials">
         <div class="py-3">TESTIMONIALS</div>
-      </nuxt-link>
+      </NuxtLink>
       <a href="https://www.medium.com/@acceleratehubng">
         <div class="py-3">BLOG</div>
       </a>
-      <nuxt-link to="/contact">
+      <NuxtLink to="/contact">
         <div class="py-3">CONTACT US</div>
-      </nuxt-link>
+      </NuxtLink>
     </div>
   </nav>
 </template>

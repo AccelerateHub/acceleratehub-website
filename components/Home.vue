@@ -95,9 +95,9 @@
         <div class="big p-3 px-lg-5 text-heading">our gallery</div>
       </div>
       <div class="col-lg-3">
-        <nuxt-link to="/gallery">
+        <NuxtLink to="/gallery">
           <div class="big p-3 px-lg-5 text-heading">see more</div>
-        </nuxt-link>
+        </NuxtLink>
       </div>
       <div class="col-12">
         <GallarySlider />

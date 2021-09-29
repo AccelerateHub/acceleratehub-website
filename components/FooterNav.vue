@@ -4,18 +4,18 @@
       <div class="row px-lg-2 pb-4">
         <div class="col-lg-2 mx-lg-5">
           <div class="heading mb-3">NAVIGATE</div>
-          <nuxt-link to="/">
+          <NuxtLink to="/">
             <div class="py-1">HOME</div>
-          </nuxt-link>
-          <nuxt-link to="/about">
+          </NuxtLink>
+          <NuxtLink to="/about">
             <div class="py-1">ABOUT US</div>
-          </nuxt-link>
-          <nuxt-link to="">
+          </NuxtLink>
+          <NuxtLink to="">
             <div class="py-1">BLOG</div>
-          </nuxt-link>
-          <nuxt-link to="/team">
+          </NuxtLink>
+          <NuxtLink to="/team">
             <div class="py-1">OUR TEAM</div>
-          </nuxt-link>
+          </NuxtLink>
         </div>
         <div class="col-lg-1 mx-lg-5">
           <div class="heading mb-3">SOCIALS</div>
@@ -41,9 +41,9 @@
             <input class="p-2 px-4" type="button" value="JOIN US" />
           </div>
           <div class="py-1">
-            <nuxt-link to="/contact">
+            <NuxtLink to="/contact">
               <input class="p-2 px-4" type="button" value="CONTACT US" />
-            </nuxt-link>
+            </NuxtLink>
           </div>
         </div>
         <div class="col-lg-4 text-lg-right text-left">

@@ -46,7 +46,7 @@
             <div class="col-12 col-md-5">
               <div class="our-story-images">
                 <img src="~static/img/Rectangle 26.png" alt="" />
-                <div class="d-flex p-lg-2 ml-lg-5 pl-lg-5">
+                <div class="d-lg-flex p-lg-2 ml-lg-5 pl-lg-5">
                   <img
                     class="mx-lg-4 wita-img"
                     src="~static/img/45 1.png"
