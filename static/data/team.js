@@ -11,7 +11,7 @@ export default [
   {
     image: 'Louis.png',
     name: 'Louis Whyte Jonah',
-    title: 'Lead, Product Designer',
+    title: 'Product Designer',
     facebook: 'https://facebook.com/LouiswhyteTM',
     twitter: 'https://twitter.com/louiswhytetm',
     linkedin: 'https://www.linkedin.com/in/louiswhytetm',
@@ -19,21 +19,21 @@ export default [
   {
     image: 'Wisdom.png',
     name: 'Wisdom Matthew',
-    title: 'Lead, Backend developer',
+    title: 'Lead Accelerate Hub, Backend developer',
     twitter: 'https://twitter.com/wisdommatthew11',
     linkedin: 'https://www.linkedin.com/in/wisdom-matthew-7bb56017a/',
   },
   {
     image: 'Testimony.png',
     name: 'Testimony Gilbert',
-    title: 'Co-Lead',
+    title: 'Co-Lead, Accelerate Hub - Content Developer',
     // twitter: 'https://twitter.com/wisdommatthew11',
     // linkedin: 'https://www.linkedin.com/in/wisdom-matthew-7bb56017a/'
   },
   {
     image: 'Favour.png',
     name: 'Favour Ayozie',
-    title: 'WITA Lead, Web Developer',
+    title: 'Lead, Women in Tech Accelerate, Web Developer',
     // twitter: 'https://twitter.com/hiatus_01'
     // linkedin: 'https://www.linkedin.com/in/god-swill-jonathan-a41023205/'
   },
@@ -46,14 +46,14 @@ export default [
   },
   {
     image: 'Gabriel.png',
-    name: 'Gabriel Uranta, Web Developer',
-    title: 'Technical Lead',
+    name: 'Gabriel Uranta',
+    title: 'Technical Lead, Web Developer',
     // facebook: 'https://facebook.com/lekan.ibrahim.1293'
   },
   {
     image: 'Angela.png',
     name: 'Angela Amachree',
-    title: 'Director of Programmes, Phyton developer',
+    title: 'Director of Programmes, Python developer',
     // facebook: 'https://facebook.com/lekan.ibrahim.1293'
   },
   {
