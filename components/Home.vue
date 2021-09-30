@@ -359,4 +359,10 @@ a{
     width: 32%;
   }
 }
+@media (max-width: 600px) {
+  .frame-2, .frame-5{
+    top: 80%;
+  }
+}
+
 </style>

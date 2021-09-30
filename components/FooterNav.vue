@@ -10,9 +10,9 @@
           <NuxtLink to="/about">
             <div class="py-1">ABOUT US</div>
           </NuxtLink>
-          <NuxtLink to="">
+          <a href="https://www.medium.com/@acceleratehubng">
             <div class="py-1">BLOG</div>
-          </NuxtLink>
+          </a>
           <NuxtLink to="/team">
             <div class="py-1">OUR TEAM</div>
           </NuxtLink>

@@ -46,7 +46,7 @@
             <div class="col-12 col-md-5">
               <div class="our-story-images">
                 <img src="~static/img/Rectangle 26.png" alt="" />
-                <div class="d-lg-flex p-lg-2 ml-lg-5 pl-lg-5">
+                <div class="d-lg-flex p-lg-2 ml-lg-5 pl-lg-5 wita-container">
                   <img
                     class="mx-lg-4 wita-img"
                     src="~static/img/45 1.png"
@@ -67,18 +67,17 @@
               <img src="~static/img/team/Favour.png" alt="" />
             </div>
             <div class="col-lg-5 mt-2">
-                <h2>WITA LEAD</h2>
-                <div class="wita-text">
-                  <p>
-                    It is neither his world nor her world rather it is our
-                    world, our technology. Thus, we opine the embrace of
-                    inclusion and equal opportunities to better our world
-                    through STEM.
-                  </p>
-                  <h5>FAVOUR AYOZIE</h5>
-                  <p>Lead, Women in Tech Accelerate</p>
-                </div>
+              <h2>WITA LEAD</h2>
+              <div class="wita-text">
+                <p>
+                  It is neither his world nor her world rather it is our world,
+                  our technology. Thus, we opine the embrace of inclusion and
+                  equal opportunities to better our world through STEM.
+                </p>
+                <h5>FAVOUR AYOZIE</h5>
+                <p>Lead, Women in Tech Accelerate</p>
               </div>
+            </div>
           </div>
           <div class="row mt-5">
             <div class="col-12 col-md-6">
@@ -313,6 +312,9 @@ h4 {
   p {
     font-size: 13px;
   }
+  .wita-img {
+    display: none !important;
+  }
 }
 @media (min-width: 1000px) {
   .page-title h2 {
@@ -337,15 +339,15 @@ h4 {
     height: 293px;
     margin-bottom: 0px;
   }
+  .wita-lead img {
+    margin-left: 0px;
+  }
 
   /* CORE VALUES */
   .core-item {
     display: flex;
     align-items: center;
     height: 300px;
-  }
-  .wita-lead img {
-    margin-left: 0px;
   }
 }
 </style>

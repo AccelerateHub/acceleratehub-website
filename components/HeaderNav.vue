@@ -46,28 +46,28 @@
         <img src="../assets/hub-logo.png" alt="" />
       </div>
       <NuxtLink to="/">
-        <div class="py-3">HOME</div>
+        <div class="py-2">HOME</div>
       </NuxtLink>
       <NuxtLink to="/about">
-        <div class="py-3">ABOUT US</div>
+        <div class="py-2">ABOUT US</div>
       </NuxtLink>
       <NuxtLink to="/projects">
-        <div class="py-3">PROJECTS</div>
+        <div class="py-2">PROJECTS</div>
       </NuxtLink>
       <NuxtLink to="/team">
-        <div class="py-3">OUR TEAM</div>
+        <div class="py-2">OUR TEAM</div>
       </NuxtLink>
       <NuxtLink to="/wita">
-        <div class="py-3">WITA</div>
+        <div class="py-2">WITA</div>
       </NuxtLink>
       <NuxtLink to="/testimonials">
-        <div class="py-3">TESTIMONIALS</div>
+        <div class="py-2">TESTIMONIALS</div>
       </NuxtLink>
       <a href="https://www.medium.com/@acceleratehubng">
-        <div class="py-3">BLOG</div>
+        <div class="py-2">BLOG</div>
       </a>
       <NuxtLink to="/contact">
-        <div class="py-3">CONTACT US</div>
+        <div class="py-2">CONTACT US</div>
       </NuxtLink>
     </div>
   </nav>

@@ -21,7 +21,7 @@
                   <p>
                     Diig, an acronym for Digital Inclusion for Intensive growth has a mobile application and on in development is the web app where we hope to bridge the gap promote growth in education amonst students, scholars, lecturers etc within varsities and beyond. 
                   </p>
-                  <h5>READ MORE</h5>
+                  <!-- <h5>READ MORE</h5> -->
                 </div>
               </div>
             </div>
@@ -53,7 +53,7 @@
                   <p>
                     The event was primarily focused on creating awareness about the diverse opportunities in the Tech space, exhibiting products and in-demand skills, possibility of training of Participants and providing network opportunities to stakeholders and enthusiast in the IT sector. In general, Organizers hoped to reinforce the possibility that Nigeria can utilise IT to solve prevalent societal issues and offer solutions for sustainable development goals, which will make the Nation’s economy versatile and open to its teeming young population.
                   </p>
-                  <h5>READ MORE</h5>
+                  <!-- <h5>READ MORE</h5> -->
                 </div>
               </div>
             </div>
@@ -72,7 +72,7 @@
                   <p>
                     learning a Tech degree doesn't guarantee someone earning money. So learning the business part of tech skill is something that the general public or techies should know if they must grow in the tech space or if they have plans to co-found a start-up. The Business in Technology was designed to discuss and solve the challenges.
                   </p>
-                  <h5>READ MORE</h5>
+                  <!-- <h5>READ MORE</h5> -->
                 </div>
               </div>
             </div>
@@ -127,7 +127,7 @@
                   <p>
                     The purpose of the Bootcamp was to empower the students and non-students of Rivers State University with the necessary tech skill to enable them to stand out in a tech thriving world. Five (5) tech skills were taught by sets of awesome instructors from the accelerate hub and her partner AR/VR Africa PH. 
                   </p>
-                  <h5>READ MORE</h5>
+                  <!-- <h5>READ MORE</h5> -->
                 </div>
               </div>
             </div>
@@ -147,7 +147,7 @@
                   <p>
                     The objective of the event was to create awareness of the robust opportunities available in the tech space, especially for females. Considering the fact that technology is advancing in the world today, and the female is lacking behind in the tech industry as most times females shy away from the field.
                   </p>
-                  <h5>READ MORE</h5>
+                  <!-- <h5>READ MORE</h5> -->
                 </div>
               </div>
             </div>
