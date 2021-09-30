@@ -361,8 +361,7 @@ a{
 }
 @media (max-width: 600px) {
   .frame-2, .frame-5{
-    top: 80%;
+    top: 65%;
   }
 }
-
 </style>
