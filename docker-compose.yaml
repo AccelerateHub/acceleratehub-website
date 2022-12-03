@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  app:
+    container_name: acceleratehub-website
+    image: node:19.2-slim
+    command: ["sh", "-c", "yarn install && yarn build && yarn start"]
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - "40000:3000"
